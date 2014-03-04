@@ -1,4 +1,7 @@
 <?php
+
+namespace Codebird;
+
 /**
  * A Twitter library in PHP.
  *
@@ -280,7 +283,7 @@ class Codebird
 
         $httpmethod = $this->_detectMethod($method_template, $apiparams);
         $multipart  = $this->_detectMultipart($method_template);
-        
+
         return $this->_callApi(
             $httpmethod,
             $method,

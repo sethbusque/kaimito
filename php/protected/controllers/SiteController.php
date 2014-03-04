@@ -1,5 +1,5 @@
 <?php
-// ini_set('max_execution_time', 300);
+ini_set('max_execution_time', 300);
 Yii::import('application.vendors.*');
 		
 class SiteController extends Controller
@@ -31,13 +31,14 @@ class SiteController extends Controller
 	{
 		// renders the view file 'protected/views/site/index.php'
 		// using the default layout 'protected/views/layouts/main.php'
+
+		/*
 		require_once('codebird/codebird.php');
-		Codebird::setConsumerKey('K6zFXmFlPi6GlfSyruD5Q', 'xufv0Po4RgeK7LTIHnylBylIK6XokOxnaTH8zOsaM');
-		$cb = Codebird::getInstance();
+		\Codebird\Codebird::setConsumerKey('K6zFXmFlPi6GlfSyruD5Q', 'xufv0Po4RgeK7LTIHnylBylIK6XokOxnaTH8zOsaM');
+		$cb = \Codebird\Codebird::getInstance();
 
 		session_start();
 
-		
 		if (! isset($_SESSION['oauth_token'])) {
 		    // get the request token
 
@@ -79,6 +80,8 @@ class SiteController extends Controller
 		$cb->setToken($_SESSION['oauth_token'], $_SESSION['oauth_token_secret']);
 
 		$reply = (array) $cb->statuses_homeTimeline();
+		*/
+		$reply = array();
 		$this->render('index',array('reply'=>$reply));
 	}
 
