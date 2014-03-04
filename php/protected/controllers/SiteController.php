@@ -1,5 +1,5 @@
 <?php
-ini_set('max_execution_time', 300);
+// ini_set('max_execution_time', 300);
 Yii::import('application.vendors.*');
 		
 class SiteController extends Controller
@@ -41,8 +41,7 @@ class SiteController extends Controller
 		if (! isset($_SESSION['oauth_token'])) {
 		    // get the request token
 		    var_dump($cb);
-		    die();
-		
+
 		    $reply = $cb->oauth_requestToken(array(
 		        'oauth_callback' => 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']
 		    ));
