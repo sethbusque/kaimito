@@ -32,14 +32,17 @@ class SiteController extends Controller
 		// renders the view file 'protected/views/site/index.php'
 		// using the default layout 'protected/views/layouts/main.php'
 		require_once('codebird/codebird.php');
-		\Codebird\Codebird::setConsumerKey('K6zFXmFlPi6GlfSyruD5Q', 'xufv0Po4RgeK7LTIHnylBylIK6XokOxnaTH8zOsaM');
-		$cb = \Codebird\Codebird::getInstance();
+		Codebird::setConsumerKey('K6zFXmFlPi6GlfSyruD5Q', 'xufv0Po4RgeK7LTIHnylBylIK6XokOxnaTH8zOsaM');
+		$cb = Codebird::getInstance();
 
 		session_start();
 
 		
 		if (! isset($_SESSION['oauth_token'])) {
 		    // get the request token
+		    var_dump($cb);
+		    // die();
+		
 		    $reply = $cb->oauth_requestToken(array(
 		        'oauth_callback' => 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']
 		    ));

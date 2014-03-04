@@ -1747,3 +1747,39 @@ Stack trace:
 REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
 HTTP_REFERER=http://localhost/kaimito/site/index.htm
 ---
+2014/03/04 04:15:44 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\kaimito\php\protected\controllers\SiteController.php:48)
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CController.php(287): SiteController->runAction()
+#1 C:\xampp\htdocs\kaimito\php\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(283): SiteController->run()
+#3 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\kaimito\php\index.php(13): CWebApplication->run()
+REQUEST_URI=/kaimito/php/
+in C:\xampp\htdocs\kaimito\php\protected\controllers\SiteController.php (48)
+in C:\xampp\htdocs\kaimito\php\index.php (13)
+2014/03/04 04:16:48 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\kaimito\php\protected\controllers\SiteController.php:48)
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CController.php(287): SiteController->runAction()
+#1 C:\xampp\htdocs\kaimito\php\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(283): SiteController->run()
+#3 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\kaimito\php\index.php(13): CWebApplication->run()
+REQUEST_URI=/kaimito/php/
+in C:\xampp\htdocs\kaimito\php\protected\controllers\SiteController.php (48)
+in C:\xampp\htdocs\kaimito\php\index.php (13)
+2014/03/04 04:18:08 [error] [php] include(Codebird.php): failed to open stream: No such file or directory (C:\xampp\htdocs\kaimito\php\framework\YiiBase.php:423)
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\protected\controllers\SiteController.php(35): spl_autoload_call()
+#1 C:\xampp\htdocs\kaimito\php\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#2 C:\xampp\htdocs\kaimito\php\framework\web\CController.php(309): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\kaimito\php\framework\web\CController.php(287): SiteController->runAction()
+#4 C:\xampp\htdocs\kaimito\php\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#5 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(283): SiteController->run()
+#6 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#7 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\kaimito\php\index.php(13): CWebApplication->run()
+REQUEST_URI=/kaimito/php/
+in C:\xampp\htdocs\kaimito\php\protected\controllers\SiteController.php (35)
+in C:\xampp\htdocs\kaimito\php\index.php (13)
