@@ -195,7 +195,6 @@ class Codebird
 
     public function __call($fn, $params)
     {
-        echo "starting __call metchod";
         // parse parameters
         $apiparams = array();
         if (count($params) > 0) {
@@ -282,8 +281,6 @@ class Codebird
         $httpmethod = $this->_detectMethod($method_template, $apiparams);
         $multipart  = $this->_detectMultipart($method_template);
         
-        var_dump($httpmethod,$method);
-
         return $this->_callApi(
             $httpmethod,
             $method,

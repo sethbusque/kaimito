@@ -40,17 +40,15 @@ class SiteController extends Controller
 		
 		if (! isset($_SESSION['oauth_token'])) {
 		    // get the request token
-		    var_dump($cb);
 
 		    $reply = $cb->oauth_requestToken(array(
 		        'oauth_callback' => 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']
 		    ));
-			var_dump($reply);
-			die();
+
 		    // store the token
-		    $cb->setToken($reply->oauth_token, $reply->oauth_token_secret);
-		    $_SESSION['oauth_token'] = $reply->oauth_token;
-		    $_SESSION['oauth_token_secret'] = $reply->oauth_token_secret;
+		    $cb->setToken($reply['oauth_token'], $reply['oauth_token_secret']);
+		    $_SESSION['oauth_token'] = $reply['oauth_token'];
+		    $_SESSION['oauth_token_secret'] = $reply['oauth_token_secret'];
 		    $_SESSION['oauth_verify'] = true;
 
 		    // redirect to auth website
@@ -69,8 +67,8 @@ class SiteController extends Controller
 		    ));
 
 		    // store the token (which is different from the request token!)
-		    $_SESSION['oauth_token'] = $reply->oauth_token;
-		    $_SESSION['oauth_token_secret'] = $reply->oauth_token_secret;
+		    $_SESSION['oauth_token'] = $reply['oauth_token'];
+		    $_SESSION['oauth_token_secret'] = $reply['oauth_token_secret'];
 
 		    // send to same URL, without oauth GET parameters
 		    header('Location: ' . basename(__FILE__));
