@@ -1,0 +1,1749 @@
+2014/02/02 15:48:25 [error] [exception.CException] exception 'CException' with message 'FontAwesome and its behaviors do not have a method or closure named "registerCss".' in C:\xampp\htdocs\timeo\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\timeo\protected\extensions\fontawesome\FontAwesome.php(28): CComponent->__call('registerCss', Array)
+#1 C:\xampp\htdocs\timeo\protected\extensions\fontawesome\FontAwesome.php(28): FontAwesome->registerCss()
+#2 C:\xampp\htdocs\timeo\framework\base\CModule.php(388): FontAwesome->init()
+#3 C:\xampp\htdocs\timeo\framework\base\CModule.php(493): CModule->getComponent('fontawesome')
+#4 C:\xampp\htdocs\timeo\framework\base\CApplication.php(146): CModule->preloadComponents()
+#5 C:\xampp\htdocs\timeo\framework\YiiBase.php(127): CApplication->__construct('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\timeo\framework\YiiBase.php(100): YiiBase::createApplication('CWebApplication', 'C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\timeo\index.php(13): YiiBase::createWebApplication('C:\xampp\htdocs...')
+#8 {main}
+REQUEST_URI=/timeo/index.php/site/index
+HTTP_REFERER=http://localhost/timeo/index.php/site/login
+---
+2014/02/02 15:48:45 [error] [exception.CException] exception 'CException' with message 'The asset "C:\xampp\htdocs\timeo\protected\extensions\assets" to be published does not exist.' in C:\xampp\htdocs\timeo\framework\web\CAssetManager.php:255
+Stack trace:
+#0 C:\xampp\htdocs\timeo\protected\extensions\fontawesome\FontAwesome.php(56): CAssetManager->publish('C:\xampp\htdocs...', false, -1, true)
+#1 C:\xampp\htdocs\timeo\protected\extensions\fontawesome\FontAwesome.php(42): FontAwesome->getAssetsUrl()
+#2 C:\xampp\htdocs\timeo\protected\extensions\fontawesome\FontAwesome.php(28): FontAwesome->registerCss()
+#3 C:\xampp\htdocs\timeo\framework\base\CModule.php(388): FontAwesome->init()
+#4 C:\xampp\htdocs\timeo\framework\base\CModule.php(493): CModule->getComponent('fontawesome')
+#5 C:\xampp\htdocs\timeo\framework\base\CApplication.php(146): CModule->preloadComponents()
+#6 C:\xampp\htdocs\timeo\framework\YiiBase.php(127): CApplication->__construct('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\timeo\framework\YiiBase.php(100): YiiBase::createApplication('CWebApplication', 'C:\xampp\htdocs...')
+#8 C:\xampp\htdocs\timeo\index.php(13): YiiBase::createWebApplication('C:\xampp\htdocs...')
+#9 {main}
+REQUEST_URI=/timeo/index.php/site/index
+HTTP_REFERER=http://localhost/timeo/index.php/site/login
+---
+2014/02/02 15:50:00 [error] [php] copy(C:\xampp\htdocs\timeo\assets\510f167b\assets\510f167b\assets\510f167b\assets\510f167b\assets\510f167b\assets\510f167b\assets\510f167b\assets\510f167b\assets\510f167b\assets\510f167b\assets\510f167b\assets\510f167b\assets\166b3a2a\css\bootstrap-responsive.min.css): failed to open stream: Invalid argument (C:\xampp\htdocs\timeo\framework\utils\CFileHelper.php:130)
+Stack trace:
+#0 C:\xampp\htdocs\timeo\framework\utils\CFileHelper.php(135): copyDirectoryRecursive()
+#1 C:\xampp\htdocs\timeo\framework\utils\CFileHelper.php(135): copyDirectoryRecursive()
+#2 C:\xampp\htdocs\timeo\framework\utils\CFileHelper.php(135): copyDirectoryRecursive()
+#3 C:\xampp\htdocs\timeo\framework\utils\CFileHelper.php(135): copyDirectoryRecursive()
+#4 C:\xampp\htdocs\timeo\framework\utils\CFileHelper.php(135): copyDirectoryRecursive()
+#5 C:\xampp\htdocs\timeo\framework\utils\CFileHelper.php(135): copyDirectoryRecursive()
+#6 C:\xampp\htdocs\timeo\framework\utils\CFileHelper.php(135): copyDirectoryRecursive()
+#7 C:\xampp\htdocs\timeo\framework\utils\CFileHelper.php(135): copyDirectoryRecursive()
+#8 C:\xampp\htdocs\timeo\framework\utils\CFileHelper.php(135): copyDirectoryRecursive()
+#9 C:\xampp\htdocs\timeo\framework\utils\CFileHelper.php(135): copyDirectoryRecursive()
+#10 C:\xampp\htdocs\timeo\framework\utils\CFileHelper.php(135): copyDirectoryRecursive()
+#11 C:\xampp\htdocs\timeo\framework\utils\CFileHelper.php(135): copyDirectoryRecursive()
+#12 C:\xampp\htdocs\timeo\framework\utils\CFileHelper.php(135): copyDirectoryRecursive()
+#13 C:\xampp\htdocs\timeo\framework\utils\CFileHelper.php(135): copyDirectoryRecursive()
+#14 C:\xampp\htdocs\timeo\framework\utils\CFileHelper.php(135): copyDirectoryRecursive()
+#15 C:\xampp\htdocs\timeo\framework\utils\CFileHelper.php(135): copyDirectoryRecursive()
+#16 C:\xampp\htdocs\timeo\framework\utils\CFileHelper.php(135): copyDirectoryRecursive()
+#17 C:\xampp\htdocs\timeo\framework\utils\CFileHelper.php(135): copyDirectoryRecursive()
+#18 C:\xampp\htdocs\timeo\framework\utils\CFileHelper.php(135): copyDirectoryRecursive()
+#19 C:\xampp\htdocs\timeo\framework\utils\CFileHelper.php(135): copyDirectoryRecursive()
+#20 C:\xampp\htdocs\timeo\framework\utils\CFileHelper.php(135): copyDirectoryRecursive()
+#21 C:\xampp\htdocs\timeo\framework\utils\CFileHelper.php(135): copyDirectoryRecursive()
+#22 C:\xampp\htdocs\timeo\framework\utils\CFileHelper.php(135): copyDirectoryRecursive()
+#23 C:\xampp\htdocs\timeo\framework\utils\CFileHelper.php(135): copyDirectoryRecursive()
+#24 C:\xampp\htdocs\timeo\framework\utils\CFileHelper.php(59): copyDirectoryRecursive()
+#25 C:\xampp\htdocs\timeo\framework\web\CAssetManager.php(249): copyDirectory()
+#26 C:\xampp\htdocs\timeo\protected\extensions\fontawesome\FontAwesome.php(56): CAssetManager->publish()
+#27 C:\xampp\htdocs\timeo\protected\extensions\fontawesome\FontAwesome.php(42): FontAwesome->getAssetsUrl()
+#28 C:\xampp\htdocs\timeo\protected\extensions\fontawesome\FontAwesome.php(28): FontAwesome->registerCss()
+#29 C:\xampp\htdocs\timeo\framework\base\CModule.php(388): FontAwesome->init()
+#30 C:\xampp\htdocs\timeo\framework\base\CModule.php(493): CWebApplication->getComponent()
+#31 C:\xampp\htdocs\timeo\framework\base\CApplication.php(146): CWebApplication->preloadComponents()
+#32 C:\xampp\htdocs\timeo\framework\YiiBase.php(127): CWebApplication->__construct()
+#33 C:\xampp\htdocs\timeo\framework\YiiBase.php(100): createApplication()
+#34 C:\xampp\htdocs\timeo\index.php(13): createWebApplication()
+REQUEST_URI=/timeo/index.php/site/index
+in C:\xampp\htdocs\timeo\protected\extensions\fontawesome\FontAwesome.php (56)
+in C:\xampp\htdocs\timeo\protected\extensions\fontawesome\FontAwesome.php (42)
+in C:\xampp\htdocs\timeo\protected\extensions\fontawesome\FontAwesome.php (28)
+2014/02/02 15:50:34 [error] [php] copy(C:\xampp\htdocs\timeo\assets\510f167b\assets\510f167b\assets\510f167b\assets\510f167b\assets\510f167b\assets\510f167b\assets\510f167b\assets\510f167b\assets\510f167b\assets\510f167b\assets\510f167b\assets\510f167b\assets\166b3a2a\css\bootstrap-responsive.min.css): failed to open stream: Invalid argument (C:\xampp\htdocs\timeo\framework\utils\CFileHelper.php:130)
+Stack trace:
+#0 C:\xampp\htdocs\timeo\framework\utils\CFileHelper.php(135): copyDirectoryRecursive()
+#1 C:\xampp\htdocs\timeo\framework\utils\CFileHelper.php(135): copyDirectoryRecursive()
+#2 C:\xampp\htdocs\timeo\framework\utils\CFileHelper.php(135): copyDirectoryRecursive()
+#3 C:\xampp\htdocs\timeo\framework\utils\CFileHelper.php(135): copyDirectoryRecursive()
+#4 C:\xampp\htdocs\timeo\framework\utils\CFileHelper.php(135): copyDirectoryRecursive()
+#5 C:\xampp\htdocs\timeo\framework\utils\CFileHelper.php(135): copyDirectoryRecursive()
+#6 C:\xampp\htdocs\timeo\framework\utils\CFileHelper.php(135): copyDirectoryRecursive()
+#7 C:\xampp\htdocs\timeo\framework\utils\CFileHelper.php(135): copyDirectoryRecursive()
+#8 C:\xampp\htdocs\timeo\framework\utils\CFileHelper.php(135): copyDirectoryRecursive()
+#9 C:\xampp\htdocs\timeo\framework\utils\CFileHelper.php(135): copyDirectoryRecursive()
+#10 C:\xampp\htdocs\timeo\framework\utils\CFileHelper.php(135): copyDirectoryRecursive()
+#11 C:\xampp\htdocs\timeo\framework\utils\CFileHelper.php(135): copyDirectoryRecursive()
+#12 C:\xampp\htdocs\timeo\framework\utils\CFileHelper.php(135): copyDirectoryRecursive()
+#13 C:\xampp\htdocs\timeo\framework\utils\CFileHelper.php(135): copyDirectoryRecursive()
+#14 C:\xampp\htdocs\timeo\framework\utils\CFileHelper.php(135): copyDirectoryRecursive()
+#15 C:\xampp\htdocs\timeo\framework\utils\CFileHelper.php(135): copyDirectoryRecursive()
+#16 C:\xampp\htdocs\timeo\framework\utils\CFileHelper.php(135): copyDirectoryRecursive()
+#17 C:\xampp\htdocs\timeo\framework\utils\CFileHelper.php(135): copyDirectoryRecursive()
+#18 C:\xampp\htdocs\timeo\framework\utils\CFileHelper.php(135): copyDirectoryRecursive()
+#19 C:\xampp\htdocs\timeo\framework\utils\CFileHelper.php(135): copyDirectoryRecursive()
+#20 C:\xampp\htdocs\timeo\framework\utils\CFileHelper.php(135): copyDirectoryRecursive()
+#21 C:\xampp\htdocs\timeo\framework\utils\CFileHelper.php(135): copyDirectoryRecursive()
+#22 C:\xampp\htdocs\timeo\framework\utils\CFileHelper.php(135): copyDirectoryRecursive()
+#23 C:\xampp\htdocs\timeo\framework\utils\CFileHelper.php(135): copyDirectoryRecursive()
+#24 C:\xampp\htdocs\timeo\framework\utils\CFileHelper.php(59): copyDirectoryRecursive()
+#25 C:\xampp\htdocs\timeo\framework\web\CAssetManager.php(249): copyDirectory()
+#26 C:\xampp\htdocs\timeo\protected\extensions\fontawesome\FontAwesome.php(56): CAssetManager->publish()
+#27 C:\xampp\htdocs\timeo\protected\extensions\fontawesome\FontAwesome.php(42): FontAwesome->getAssetsUrl()
+#28 C:\xampp\htdocs\timeo\protected\extensions\fontawesome\FontAwesome.php(28): FontAwesome->registerCss()
+#29 C:\xampp\htdocs\timeo\framework\base\CModule.php(388): FontAwesome->init()
+#30 C:\xampp\htdocs\timeo\framework\base\CModule.php(493): CWebApplication->getComponent()
+#31 C:\xampp\htdocs\timeo\framework\base\CApplication.php(146): CWebApplication->preloadComponents()
+#32 C:\xampp\htdocs\timeo\framework\YiiBase.php(127): CWebApplication->__construct()
+#33 C:\xampp\htdocs\timeo\framework\YiiBase.php(100): createApplication()
+#34 C:\xampp\htdocs\timeo\index.php(13): createWebApplication()
+REQUEST_URI=/timeo/index.php/site/index
+in C:\xampp\htdocs\timeo\protected\extensions\fontawesome\FontAwesome.php (56)
+in C:\xampp\htdocs\timeo\protected\extensions\fontawesome\FontAwesome.php (42)
+in C:\xampp\htdocs\timeo\protected\extensions\fontawesome\FontAwesome.php (28)
+2014/02/02 15:51:38 [error] [exception.CException] exception 'CException' with message 'The asset "C:\xampp\htdocs\timeo\protected\extensions\assets" to be published does not exist.' in C:\xampp\htdocs\timeo\framework\web\CAssetManager.php:255
+Stack trace:
+#0 C:\xampp\htdocs\timeo\protected\extensions\fontawesome\FontAwesome.php(56): CAssetManager->publish('C:\xampp\htdocs...', false, -1, true)
+#1 C:\xampp\htdocs\timeo\protected\extensions\fontawesome\FontAwesome.php(42): FontAwesome->getAssetsUrl()
+#2 C:\xampp\htdocs\timeo\protected\extensions\fontawesome\FontAwesome.php(28): FontAwesome->registerCss()
+#3 C:\xampp\htdocs\timeo\framework\base\CModule.php(388): FontAwesome->init()
+#4 C:\xampp\htdocs\timeo\framework\base\CModule.php(493): CModule->getComponent('fontawesome')
+#5 C:\xampp\htdocs\timeo\framework\base\CApplication.php(146): CModule->preloadComponents()
+#6 C:\xampp\htdocs\timeo\framework\YiiBase.php(127): CApplication->__construct('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\timeo\framework\YiiBase.php(100): YiiBase::createApplication('CWebApplication', 'C:\xampp\htdocs...')
+#8 C:\xampp\htdocs\timeo\index.php(13): YiiBase::createWebApplication('C:\xampp\htdocs...')
+#9 {main}
+REQUEST_URI=/timeo/index.php/site/index
+HTTP_REFERER=http://localhost/timeo/index.php/site/login
+---
+2014/02/02 15:52:14 [error] [exception.CException] exception 'CException' with message 'The asset "C:\xampp\htdocs\timeo\protected\extensions\assets" to be published does not exist.' in C:\xampp\htdocs\timeo\framework\web\CAssetManager.php:255
+Stack trace:
+#0 C:\xampp\htdocs\timeo\protected\extensions\fontawesome\FontAwesome.php(56): CAssetManager->publish('C:\xampp\htdocs...', false, -1, true)
+#1 C:\xampp\htdocs\timeo\protected\extensions\fontawesome\FontAwesome.php(42): FontAwesome->getAssetsUrl()
+#2 C:\xampp\htdocs\timeo\protected\extensions\fontawesome\FontAwesome.php(28): FontAwesome->registerCss()
+#3 C:\xampp\htdocs\timeo\framework\base\CModule.php(388): FontAwesome->init()
+#4 C:\xampp\htdocs\timeo\framework\base\CModule.php(493): CModule->getComponent('fontawesome')
+#5 C:\xampp\htdocs\timeo\framework\base\CApplication.php(146): CModule->preloadComponents()
+#6 C:\xampp\htdocs\timeo\framework\YiiBase.php(127): CApplication->__construct('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\timeo\framework\YiiBase.php(100): YiiBase::createApplication('CWebApplication', 'C:\xampp\htdocs...')
+#8 C:\xampp\htdocs\timeo\index.php(13): YiiBase::createWebApplication('C:\xampp\htdocs...')
+#9 {main}
+REQUEST_URI=/timeo/index.php/site/index
+---
+2014/02/02 15:52:21 [error] [exception.CException] exception 'CException' with message 'The asset "C:\xampp\htdocs\timeo\protected\extensions\assets" to be published does not exist.' in C:\xampp\htdocs\timeo\framework\web\CAssetManager.php:255
+Stack trace:
+#0 C:\xampp\htdocs\timeo\protected\extensions\fontawesome\FontAwesome.php(56): CAssetManager->publish('C:\xampp\htdocs...', false, -1, true)
+#1 C:\xampp\htdocs\timeo\protected\extensions\fontawesome\FontAwesome.php(42): FontAwesome->getAssetsUrl()
+#2 C:\xampp\htdocs\timeo\protected\extensions\fontawesome\FontAwesome.php(28): FontAwesome->registerCss()
+#3 C:\xampp\htdocs\timeo\framework\base\CModule.php(388): FontAwesome->init()
+#4 C:\xampp\htdocs\timeo\framework\base\CModule.php(493): CModule->getComponent('fontawesome')
+#5 C:\xampp\htdocs\timeo\framework\base\CApplication.php(146): CModule->preloadComponents()
+#6 C:\xampp\htdocs\timeo\framework\YiiBase.php(127): CApplication->__construct('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\timeo\framework\YiiBase.php(100): YiiBase::createApplication('CWebApplication', 'C:\xampp\htdocs...')
+#8 C:\xampp\htdocs\timeo\index.php(13): YiiBase::createWebApplication('C:\xampp\htdocs...')
+#9 {main}
+REQUEST_URI=/timeo/
+---
+2014/02/02 15:53:53 [error] [exception.CException] exception 'CException' with message 'The asset "C:\xampp\htdocs\timeo\protected\extensions\assets" to be published does not exist.' in C:\xampp\htdocs\timeo\framework\web\CAssetManager.php:255
+Stack trace:
+#0 C:\xampp\htdocs\timeo\protected\extensions\fontawesome\FontAwesome.php(56): CAssetManager->publish('C:\xampp\htdocs...', false, -1, true)
+#1 C:\xampp\htdocs\timeo\protected\extensions\fontawesome\FontAwesome.php(42): FontAwesome->getAssetsUrl()
+#2 C:\xampp\htdocs\timeo\protected\extensions\fontawesome\FontAwesome.php(28): FontAwesome->registerCss()
+#3 C:\xampp\htdocs\timeo\framework\base\CModule.php(388): FontAwesome->init()
+#4 C:\xampp\htdocs\timeo\framework\base\CModule.php(493): CModule->getComponent('fontawesome')
+#5 C:\xampp\htdocs\timeo\framework\base\CApplication.php(146): CModule->preloadComponents()
+#6 C:\xampp\htdocs\timeo\framework\YiiBase.php(127): CApplication->__construct('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\timeo\framework\YiiBase.php(100): YiiBase::createApplication('CWebApplication', 'C:\xampp\htdocs...')
+#8 C:\xampp\htdocs\timeo\index.php(13): YiiBase::createWebApplication('C:\xampp\htdocs...')
+#9 {main}
+REQUEST_URI=/timeo/
+---
+2014/02/02 16:29:08 [error] [exception.CException] exception 'CException' with message 'Property "TbMenu.class" is not defined.' in C:\xampp\htdocs\timeo\framework\base\CComponent.php:174
+Stack trace:
+#0 C:\xampp\htdocs\timeo\framework\web\CWidgetFactory.php(162): CComponent->__set('class', 'navbar-nav')
+#1 C:\xampp\htdocs\timeo\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(SiteController), 'bootstrap.widge...', Array)
+#2 C:\xampp\htdocs\timeo\framework\web\CBaseController.php(173): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 C:\xampp\htdocs\timeo\protected\extensions\bootstrap\widgets\TbNavbar.php(150): CBaseController->widget('bootstrap.widge...', Array)
+#4 C:\xampp\htdocs\timeo\framework\web\CBaseController.php(174): TbNavbar->run()
+#5 C:\xampp\htdocs\timeo\protected\views\layouts\main.php(71): CBaseController->widget('bootstrap.widge...', Array)
+#6 C:\xampp\htdocs\timeo\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\timeo\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\timeo\framework\web\widgets\CContentDecorator.php(77): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#9 C:\xampp\htdocs\timeo\framework\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate('<div id="conten...')
+#10 C:\xampp\htdocs\timeo\framework\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput('<div id="conten...')
+#11 C:\xampp\htdocs\timeo\framework\web\CBaseController.php(207): COutputProcessor->run()
+#12 C:\xampp\htdocs\timeo\framework\web\CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#13 C:\xampp\htdocs\timeo\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#14 C:\xampp\htdocs\timeo\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#15 C:\xampp\htdocs\timeo\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#16 C:\xampp\htdocs\timeo\framework\web\CController.php(785): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#17 C:\xampp\htdocs\timeo\protected\controllers\SiteController.php(32): CController->render('index')
+#18 C:\xampp\htdocs\timeo\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#19 C:\xampp\htdocs\timeo\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#20 C:\xampp\htdocs\timeo\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#21 C:\xampp\htdocs\timeo\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 C:\xampp\htdocs\timeo\framework\web\CWebApplication.php(283): CController->run('')
+#23 C:\xampp\htdocs\timeo\framework\web\CWebApplication.php(142): CWebApplication->runController('')
+#24 C:\xampp\htdocs\timeo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#25 C:\xampp\htdocs\timeo\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/timeo/
+---
+2014/02/09 06:22:55 [error] [php] Use of undefined constant small - assumed 'small' (C:\xampp\htdocs\timeo\protected\views\site\pages\about.php:248)
+Stack trace:
+#0 C:\xampp\htdocs\timeo\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\xampp\htdocs\timeo\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\xampp\htdocs\timeo\framework\web\actions\CViewAction.php(141): SiteController->render()
+#3 C:\xampp\htdocs\timeo\framework\web\actions\CAction.php(75): CViewAction->run()
+#4 C:\xampp\htdocs\timeo\framework\web\CController.php(309): CViewAction->runWithParams()
+#5 C:\xampp\htdocs\timeo\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\xampp\htdocs\timeo\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\timeo\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\xampp\htdocs\timeo\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\timeo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\timeo\index.php(13): CWebApplication->run()
+REQUEST_URI=/timeo/index.php/site/page?view=about
+in C:\xampp\htdocs\timeo\protected\views\site\pages\about.php (248)
+in C:\xampp\htdocs\timeo\index.php (13)
+2014/02/09 16:11:03 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "button".' in C:\xampp\htdocs\timeo\framework\web\CController.php:879
+Stack trace:
+#0 C:\xampp\htdocs\timeo\protected\views\site\pages\about.php(11): CController->renderPartial('button')
+#1 C:\xampp\htdocs\timeo\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#2 C:\xampp\htdocs\timeo\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#3 C:\xampp\htdocs\timeo\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#4 C:\xampp\htdocs\timeo\framework\web\CController.php(783): CController->renderPartial('pages/about', NULL, true)
+#5 C:\xampp\htdocs\timeo\framework\web\actions\CViewAction.php(141): CController->render('pages/about')
+#6 C:\xampp\htdocs\timeo\framework\web\actions\CAction.php(75): CViewAction->run()
+#7 C:\xampp\htdocs\timeo\framework\web\CController.php(309): CAction->runWithParams(Array)
+#8 C:\xampp\htdocs\timeo\framework\web\CController.php(287): CController->runAction(Object(CViewAction))
+#9 C:\xampp\htdocs\timeo\framework\web\CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#10 C:\xampp\htdocs\timeo\framework\web\CWebApplication.php(283): CController->run('page')
+#11 C:\xampp\htdocs\timeo\framework\web\CWebApplication.php(142): CWebApplication->runController('site/page')
+#12 C:\xampp\htdocs\timeo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\timeo\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/timeo/index.php/site/page?view=about
+HTTP_REFERER=http://localhost/timeo/
+---
+2014/02/09 16:11:31 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "pages/pabutton".' in C:\xampp\htdocs\timeo\framework\web\CController.php:879
+Stack trace:
+#0 C:\xampp\htdocs\timeo\protected\views\site\pages\about.php(11): CController->renderPartial('pages/pabutton')
+#1 C:\xampp\htdocs\timeo\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#2 C:\xampp\htdocs\timeo\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#3 C:\xampp\htdocs\timeo\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#4 C:\xampp\htdocs\timeo\framework\web\CController.php(783): CController->renderPartial('pages/about', NULL, true)
+#5 C:\xampp\htdocs\timeo\framework\web\actions\CViewAction.php(141): CController->render('pages/about')
+#6 C:\xampp\htdocs\timeo\framework\web\actions\CAction.php(75): CViewAction->run()
+#7 C:\xampp\htdocs\timeo\framework\web\CController.php(309): CAction->runWithParams(Array)
+#8 C:\xampp\htdocs\timeo\framework\web\CController.php(287): CController->runAction(Object(CViewAction))
+#9 C:\xampp\htdocs\timeo\framework\web\CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#10 C:\xampp\htdocs\timeo\framework\web\CWebApplication.php(283): CController->run('page')
+#11 C:\xampp\htdocs\timeo\framework\web\CWebApplication.php(142): CWebApplication->runController('site/page')
+#12 C:\xampp\htdocs\timeo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\timeo\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/timeo/index.php/site/page?view=about
+HTTP_REFERER=http://localhost/timeo/
+---
+2014/02/09 16:11:43 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "site/pages/pabutton".' in C:\xampp\htdocs\timeo\framework\web\CController.php:879
+Stack trace:
+#0 C:\xampp\htdocs\timeo\protected\views\site\pages\about.php(11): CController->renderPartial('site/pages/pabu...')
+#1 C:\xampp\htdocs\timeo\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#2 C:\xampp\htdocs\timeo\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#3 C:\xampp\htdocs\timeo\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#4 C:\xampp\htdocs\timeo\framework\web\CController.php(783): CController->renderPartial('pages/about', NULL, true)
+#5 C:\xampp\htdocs\timeo\framework\web\actions\CViewAction.php(141): CController->render('pages/about')
+#6 C:\xampp\htdocs\timeo\framework\web\actions\CAction.php(75): CViewAction->run()
+#7 C:\xampp\htdocs\timeo\framework\web\CController.php(309): CAction->runWithParams(Array)
+#8 C:\xampp\htdocs\timeo\framework\web\CController.php(287): CController->runAction(Object(CViewAction))
+#9 C:\xampp\htdocs\timeo\framework\web\CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#10 C:\xampp\htdocs\timeo\framework\web\CWebApplication.php(283): CController->run('page')
+#11 C:\xampp\htdocs\timeo\framework\web\CWebApplication.php(142): CWebApplication->runController('site/page')
+#12 C:\xampp\htdocs\timeo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\timeo\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/timeo/index.php/site/page?view=about
+HTTP_REFERER=http://localhost/timeo/
+---
+2014/02/09 16:12:42 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "//site/pages/pabutton".' in C:\xampp\htdocs\timeo\framework\web\CController.php:879
+Stack trace:
+#0 C:\xampp\htdocs\timeo\protected\views\site\pages\about.php(11): CController->renderPartial('//site/pages/pa...')
+#1 C:\xampp\htdocs\timeo\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#2 C:\xampp\htdocs\timeo\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#3 C:\xampp\htdocs\timeo\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#4 C:\xampp\htdocs\timeo\framework\web\CController.php(783): CController->renderPartial('pages/about', NULL, true)
+#5 C:\xampp\htdocs\timeo\framework\web\actions\CViewAction.php(141): CController->render('pages/about')
+#6 C:\xampp\htdocs\timeo\framework\web\actions\CAction.php(75): CViewAction->run()
+#7 C:\xampp\htdocs\timeo\framework\web\CController.php(309): CAction->runWithParams(Array)
+#8 C:\xampp\htdocs\timeo\framework\web\CController.php(287): CController->runAction(Object(CViewAction))
+#9 C:\xampp\htdocs\timeo\framework\web\CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#10 C:\xampp\htdocs\timeo\framework\web\CWebApplication.php(283): CController->run('page')
+#11 C:\xampp\htdocs\timeo\framework\web\CWebApplication.php(142): CWebApplication->runController('site/page')
+#12 C:\xampp\htdocs\timeo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\timeo\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/timeo/index.php/site/page?view=about
+HTTP_REFERER=http://localhost/timeo/
+---
+2014/02/09 16:13:03 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "//pages/pabutton".' in C:\xampp\htdocs\timeo\framework\web\CController.php:879
+Stack trace:
+#0 C:\xampp\htdocs\timeo\protected\views\site\pages\about.php(11): CController->renderPartial('//pages/pabutto...')
+#1 C:\xampp\htdocs\timeo\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#2 C:\xampp\htdocs\timeo\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#3 C:\xampp\htdocs\timeo\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#4 C:\xampp\htdocs\timeo\framework\web\CController.php(783): CController->renderPartial('pages/about', NULL, true)
+#5 C:\xampp\htdocs\timeo\framework\web\actions\CViewAction.php(141): CController->render('pages/about')
+#6 C:\xampp\htdocs\timeo\framework\web\actions\CAction.php(75): CViewAction->run()
+#7 C:\xampp\htdocs\timeo\framework\web\CController.php(309): CAction->runWithParams(Array)
+#8 C:\xampp\htdocs\timeo\framework\web\CController.php(287): CController->runAction(Object(CViewAction))
+#9 C:\xampp\htdocs\timeo\framework\web\CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#10 C:\xampp\htdocs\timeo\framework\web\CWebApplication.php(283): CController->run('page')
+#11 C:\xampp\htdocs\timeo\framework\web\CWebApplication.php(142): CWebApplication->runController('site/page')
+#12 C:\xampp\htdocs\timeo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\timeo\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/timeo/index.php/site/page?view=about
+HTTP_REFERER=http://localhost/timeo/
+---
+2014/02/09 16:13:23 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "//pages/button".' in C:\xampp\htdocs\timeo\framework\web\CController.php:879
+Stack trace:
+#0 C:\xampp\htdocs\timeo\protected\views\site\pages\about.php(11): CController->renderPartial('//pages/button')
+#1 C:\xampp\htdocs\timeo\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#2 C:\xampp\htdocs\timeo\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#3 C:\xampp\htdocs\timeo\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#4 C:\xampp\htdocs\timeo\framework\web\CController.php(783): CController->renderPartial('pages/about', NULL, true)
+#5 C:\xampp\htdocs\timeo\framework\web\actions\CViewAction.php(141): CController->render('pages/about')
+#6 C:\xampp\htdocs\timeo\framework\web\actions\CAction.php(75): CViewAction->run()
+#7 C:\xampp\htdocs\timeo\framework\web\CController.php(309): CAction->runWithParams(Array)
+#8 C:\xampp\htdocs\timeo\framework\web\CController.php(287): CController->runAction(Object(CViewAction))
+#9 C:\xampp\htdocs\timeo\framework\web\CController.php(266): CController->runActionWithFilters(Object(CViewAction), Array)
+#10 C:\xampp\htdocs\timeo\framework\web\CWebApplication.php(283): CController->run('page')
+#11 C:\xampp\htdocs\timeo\framework\web\CWebApplication.php(142): CWebApplication->runController('site/page')
+#12 C:\xampp\htdocs\timeo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\timeo\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/timeo/index.php/site/page?view=about
+HTTP_REFERER=http://localhost/timeo/
+---
+2014/02/09 16:23:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d358cd0a/css/bootstrap-yii.css".' in C:\xampp\htdocs\timeo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\timeo\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d358cd0a...')
+#1 C:\xampp\htdocs\timeo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\timeo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/timeo/assets/d358cd0a/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/timeo/index.php/site/page?view=about
+---
+2014/02/09 16:23:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d358cd0a/css/bootstrap-yii.css".' in C:\xampp\htdocs\timeo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\timeo\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d358cd0a...')
+#1 C:\xampp\htdocs\timeo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\timeo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/timeo/assets/d358cd0a/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/timeo/site/index.htm
+---
+2014/02/09 16:23:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d358cd0a/css/bootstrap-yii.css".' in C:\xampp\htdocs\timeo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\timeo\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d358cd0a...')
+#1 C:\xampp\htdocs\timeo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\timeo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/timeo/assets/d358cd0a/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/timeo/site/page.htm?view=about
+---
+2014/02/09 16:24:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d358cd0a/css/bootstrap-yii.css".' in C:\xampp\htdocs\timeo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\timeo\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d358cd0a...')
+#1 C:\xampp\htdocs\timeo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\timeo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/timeo/assets/d358cd0a/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/timeo/site/page.htm?view=about
+---
+2014/02/09 16:26:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d358cd0a/css/bootstrap-yii.css".' in C:\xampp\htdocs\timeo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\timeo\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d358cd0a...')
+#1 C:\xampp\htdocs\timeo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\timeo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/timeo/assets/d358cd0a/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/timeo/site/page.htm?view=about
+---
+2014/02/09 16:27:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d358cd0a/css/bootstrap-yii.css".' in C:\xampp\htdocs\timeo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\timeo\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d358cd0a...')
+#1 C:\xampp\htdocs\timeo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\timeo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/timeo/assets/d358cd0a/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/timeo/site/page.htm?view=about
+---
+2014/02/09 16:29:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d358cd0a/css/bootstrap-yii.css".' in C:\xampp\htdocs\timeo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\timeo\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d358cd0a...')
+#1 C:\xampp\htdocs\timeo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\timeo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/timeo/assets/d358cd0a/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/timeo/site/page.htm?view=about
+---
+2014/02/09 16:30:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d358cd0a/css/bootstrap-yii.css".' in C:\xampp\htdocs\timeo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\timeo\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d358cd0a...')
+#1 C:\xampp\htdocs\timeo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\timeo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/timeo/assets/d358cd0a/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/timeo/site/page.htm?view=about
+---
+2014/02/09 16:31:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d358cd0a/css/bootstrap-yii.css".' in C:\xampp\htdocs\timeo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\timeo\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d358cd0a...')
+#1 C:\xampp\htdocs\timeo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\timeo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/timeo/assets/d358cd0a/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/timeo/site/page.htm?view=about
+---
+2014/02/09 16:33:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d358cd0a/css/bootstrap-yii.css".' in C:\xampp\htdocs\timeo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\timeo\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d358cd0a...')
+#1 C:\xampp\htdocs\timeo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\timeo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/timeo/assets/d358cd0a/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/timeo/site/page.htm?view=about
+---
+2014/02/09 16:34:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d358cd0a/css/bootstrap-yii.css".' in C:\xampp\htdocs\timeo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\timeo\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d358cd0a...')
+#1 C:\xampp\htdocs\timeo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\timeo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/timeo/assets/d358cd0a/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/timeo/site/page.htm?view=about
+---
+2014/02/09 16:36:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d358cd0a/css/bootstrap.css.map".' in C:\xampp\htdocs\timeo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\timeo\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d358cd0a...')
+#1 C:\xampp\htdocs\timeo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\timeo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/timeo/assets/d358cd0a/css/bootstrap.css.map
+HTTP_REFERER=http://localhost/timeo/site/page.htm?view=about
+---
+2014/02/09 16:44:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d358cd0a/css/bootstrap-yii.css".' in C:\xampp\htdocs\timeo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\timeo\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d358cd0a...')
+#1 C:\xampp\htdocs\timeo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\timeo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/timeo/assets/d358cd0a/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/timeo/site/page.htm?view=about
+---
+2014/02/09 16:46:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d358cd0a/css/bootstrap-yii.css".' in C:\xampp\htdocs\timeo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\timeo\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d358cd0a...')
+#1 C:\xampp\htdocs\timeo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\timeo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/timeo/assets/d358cd0a/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/timeo/site/page.htm?view=about
+---
+2014/02/09 16:46:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d358cd0a/css/bootstrap-yii.css".' in C:\xampp\htdocs\timeo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\timeo\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d358cd0a...')
+#1 C:\xampp\htdocs\timeo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\timeo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/timeo/assets/d358cd0a/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/timeo/site/page.htm?view=about
+---
+2014/02/09 16:47:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d358cd0a/css/bootstrap-yii.css".' in C:\xampp\htdocs\timeo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\timeo\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d358cd0a...')
+#1 C:\xampp\htdocs\timeo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\timeo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/timeo/assets/d358cd0a/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/timeo/site/page.htm?view=about
+---
+2014/02/09 16:48:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d358cd0a/css/bootstrap-yii.css".' in C:\xampp\htdocs\timeo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\timeo\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d358cd0a...')
+#1 C:\xampp\htdocs\timeo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\timeo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/timeo/assets/d358cd0a/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/timeo/site/page.htm?view=about
+---
+2014/02/09 16:48:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d358cd0a/css/bootstrap-yii.css".' in C:\xampp\htdocs\timeo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\timeo\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d358cd0a...')
+#1 C:\xampp\htdocs\timeo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\timeo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/timeo/assets/d358cd0a/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/timeo/site/page.htm?view=about
+---
+2014/02/09 16:50:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d358cd0a/css/bootstrap-yii.css".' in C:\xampp\htdocs\timeo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\timeo\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d358cd0a...')
+#1 C:\xampp\htdocs\timeo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\timeo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/timeo/assets/d358cd0a/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/timeo/site/page.htm?view=about
+---
+2014/02/09 16:54:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d358cd0a/css/bootstrap-yii.css".' in C:\xampp\htdocs\timeo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\timeo\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d358cd0a...')
+#1 C:\xampp\htdocs\timeo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\timeo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/timeo/assets/d358cd0a/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/timeo/site/page.htm?view=about
+---
+2014/02/10 00:08:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d358cd0a/css/bootstrap-yii.css".' in C:\xampp\htdocs\timeo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\timeo\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d358cd0a...')
+#1 C:\xampp\htdocs\timeo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\timeo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/timeo/assets/d358cd0a/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/timeo/site/page.htm?view=about
+---
+2014/02/10 00:14:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d358cd0a/css/bootstrap-yii.css".' in C:\xampp\htdocs\timeo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\timeo\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d358cd0a...')
+#1 C:\xampp\htdocs\timeo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\timeo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/timeo/assets/d358cd0a/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/timeo/site/page.htm?view=about
+---
+2014/02/10 00:16:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d358cd0a/css/bootstrap-yii.css".' in C:\xampp\htdocs\timeo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\timeo\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d358cd0a...')
+#1 C:\xampp\htdocs\timeo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\timeo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/timeo/assets/d358cd0a/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/timeo/site/page.htm?view=about
+---
+2014/02/12 16:21:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d358cd0a/css/bootstrap-yii.css".' in C:\xampp\htdocs\timeo\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\timeo\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d358cd0a...')
+#1 C:\xampp\htdocs\timeo\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\timeo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/timeo/assets/d358cd0a/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/timeo/site/page.htm?view=about
+---
+2014/02/18 13:55:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b94a276f/css/bootstrap-yii.css".' in C:\xampp\htdocs\pomegranate\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\pomegranate\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/b94a276f...')
+#1 C:\xampp\htdocs\pomegranate\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\pomegranate\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pomegranate/assets/b94a276f/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/pomegranate/
+---
+2014/02/18 14:01:24 [error] [php] Undefined variable: id (C:\xampp\htdocs\pomegranate\framework\web\CWebApplication.php:358)
+Stack trace:
+#0 C:\xampp\htdocs\pomegranate\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#1 C:\xampp\htdocs\pomegranate\index.php(13): CWebApplication->run()
+REQUEST_URI=/pomegranate/
+in C:\xampp\htdocs\pomegranate\index.php (13)
+2014/02/18 14:01:55 [error] [php] Undefined variable: id (C:\xampp\htdocs\pomegranate\framework\web\CWebApplication.php:358)
+Stack trace:
+#0 C:\xampp\htdocs\pomegranate\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#1 C:\xampp\htdocs\pomegranate\index.php(13): CWebApplication->run()
+REQUEST_URI=/pomegranate/
+in C:\xampp\htdocs\pomegranate\index.php (13)
+2014/02/18 14:02:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b94a276f/css/bootstrap-yii.css".' in C:\xampp\htdocs\pomegranate\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\pomegranate\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/b94a276f...')
+#1 C:\xampp\htdocs\pomegranate\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\pomegranate\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pomegranate/assets/b94a276f/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/pomegranate/
+---
+2014/02/18 14:02:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b94a276f/css/bootstrap-yii.css".' in C:\xampp\htdocs\pomegranate\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\pomegranate\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/b94a276f...')
+#1 C:\xampp\htdocs\pomegranate\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\pomegranate\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pomegranate/assets/b94a276f/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/pomegranate/
+---
+2014/02/18 14:02:38 [error] [php] Undefined variable: id (C:\xampp\htdocs\pomegranate\framework\web\CWebApplication.php:358)
+Stack trace:
+#0 C:\xampp\htdocs\pomegranate\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#1 C:\xampp\htdocs\pomegranate\index.php(13): CWebApplication->run()
+REQUEST_URI=/pomegranate/
+in C:\xampp\htdocs\pomegranate\index.php (13)
+2014/02/18 14:04:12 [error] [php] Undefined variable: id (C:\xampp\htdocs\pomegranate\framework\web\CWebApplication.php:358)
+Stack trace:
+#0 C:\xampp\htdocs\pomegranate\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#1 C:\xampp\htdocs\pomegranate\index.php(13): CWebApplication->run()
+REQUEST_URI=/pomegranate/
+in C:\xampp\htdocs\pomegranate\index.php (13)
+2014/02/18 14:04:48 [error] [php] Undefined variable: id (C:\xampp\htdocs\pomegranate\framework\web\CWebApplication.php:358)
+Stack trace:
+#0 C:\xampp\htdocs\pomegranate\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#1 C:\xampp\htdocs\pomegranate\index.php(13): CWebApplication->run()
+REQUEST_URI=/pomegranate/
+in C:\xampp\htdocs\pomegranate\index.php (13)
+2014/02/18 14:05:31 [error] [php] Undefined variable: id (C:\xampp\htdocs\pomegranate\framework\web\CWebApplication.php:358)
+Stack trace:
+#0 C:\xampp\htdocs\pomegranate\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#1 C:\xampp\htdocs\pomegranate\index.php(13): CWebApplication->run()
+REQUEST_URI=/pomegranate/
+in C:\xampp\htdocs\pomegranate\index.php (13)
+2014/02/18 14:05:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b94a276f/css/bootstrap-yii.css".' in C:\xampp\htdocs\pomegranate\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\pomegranate\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/b94a276f...')
+#1 C:\xampp\htdocs\pomegranate\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\pomegranate\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pomegranate/assets/b94a276f/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/pomegranate/
+---
+2014/02/18 14:06:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/b94a276f/css/bootstrap-yii.css".' in C:\xampp\htdocs\pomegranate\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\pomegranate\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/b94a276f...')
+#1 C:\xampp\htdocs\pomegranate\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\pomegranate\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pomegranate/assets/b94a276f/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/pomegranate/
+---
+2014/02/18 14:07:23 [error] [php] Undefined variable: cb (C:\xampp\htdocs\pomegranate\protected\controllers\SiteController.php:39)
+Stack trace:
+#0 C:\xampp\htdocs\pomegranate\framework\web\CController.php(287): SiteController->runAction()
+#1 C:\xampp\htdocs\pomegranate\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\pomegranate\framework\web\CWebApplication.php(283): SiteController->run()
+#3 C:\xampp\htdocs\pomegranate\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\pomegranate\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\pomegranate\index.php(13): CWebApplication->run()
+REQUEST_URI=/pomegranate/
+in C:\xampp\htdocs\pomegranate\protected\controllers\SiteController.php (39)
+in C:\xampp\htdocs\pomegranate\index.php (13)
+2014/02/18 14:07:50 [error] [exception.Exception] exception 'Exception' with message 'To generate a signature, the consumer key must be set.' in C:\xampp\htdocs\pomegranate\protected\vendors\codebird\codebird.php:502
+Stack trace:
+#0 C:\xampp\htdocs\pomegranate\protected\vendors\codebird\codebird.php(870): Codebird\Codebird->_sign('POST', 'https://api.twi...', Array)
+#1 C:\xampp\htdocs\pomegranate\protected\vendors\codebird\codebird.php(294): Codebird\Codebird->_callApi('POST', 'oauth/request_t...', 'oauth/request_t...', Array, false, false)
+#2 C:\xampp\htdocs\pomegranate\protected\controllers\SiteController.php(43): Codebird\Codebird->__call('oauth_requestTo...', Array)
+#3 C:\xampp\htdocs\pomegranate\protected\controllers\SiteController.php(43): Codebird\Codebird->oauth_requestToken(Array)
+#4 C:\xampp\htdocs\pomegranate\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#5 C:\xampp\htdocs\pomegranate\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\pomegranate\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\pomegranate\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\pomegranate\framework\web\CWebApplication.php(283): CController->run('')
+#9 C:\xampp\htdocs\pomegranate\framework\web\CWebApplication.php(142): CWebApplication->runController('')
+#10 C:\xampp\htdocs\pomegranate\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\pomegranate\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/pomegranate/
+---
+2014/02/18 14:08:35 [error] [exception.Exception] exception 'Exception' with message 'To generate a signature, the consumer key must be set.' in C:\xampp\htdocs\pomegranate\protected\vendors\codebird\codebird.php:502
+Stack trace:
+#0 C:\xampp\htdocs\pomegranate\protected\vendors\codebird\codebird.php(870): Codebird\Codebird->_sign('POST', 'https://api.twi...', Array)
+#1 C:\xampp\htdocs\pomegranate\protected\vendors\codebird\codebird.php(294): Codebird\Codebird->_callApi('POST', 'oauth/request_t...', 'oauth/request_t...', Array, false, false)
+#2 C:\xampp\htdocs\pomegranate\protected\controllers\SiteController.php(43): Codebird\Codebird->__call('oauth_requestTo...', Array)
+#3 C:\xampp\htdocs\pomegranate\protected\controllers\SiteController.php(43): Codebird\Codebird->oauth_requestToken(Array)
+#4 C:\xampp\htdocs\pomegranate\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#5 C:\xampp\htdocs\pomegranate\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\pomegranate\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\pomegranate\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\pomegranate\framework\web\CWebApplication.php(283): CController->run('')
+#9 C:\xampp\htdocs\pomegranate\framework\web\CWebApplication.php(142): CWebApplication->runController('')
+#10 C:\xampp\htdocs\pomegranate\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\pomegranate\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/pomegranate/
+---
+2014/02/18 14:17:56 [error] [php] Undefined property: stdClass::$oauth_token (C:\xampp\htdocs\kaimito\protected\controllers\SiteController.php:47)
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CController.php(287): SiteController->runAction()
+#1 C:\xampp\htdocs\kaimito\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(283): SiteController->run()
+#3 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\kaimito\index.php(13): CWebApplication->run()
+REQUEST_URI=/kaimito/
+in C:\xampp\htdocs\kaimito\protected\controllers\SiteController.php (47)
+in C:\xampp\htdocs\kaimito\index.php (13)
+2014/02/18 14:18:43 [error] [php] Undefined property: stdClass::$oauth_token (C:\xampp\htdocs\kaimito\protected\controllers\SiteController.php:47)
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CController.php(287): SiteController->runAction()
+#1 C:\xampp\htdocs\kaimito\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(283): SiteController->run()
+#3 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\kaimito\index.php(13): CWebApplication->run()
+REQUEST_URI=/kaimito/
+in C:\xampp\htdocs\kaimito\protected\controllers\SiteController.php (47)
+in C:\xampp\htdocs\kaimito\index.php (13)
+2014/02/18 14:28:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "SiteController.php".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('SiteController....')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/SiteController.php
+---
+2014/02/18 14:28:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/SiteController.php
+---
+2014/02/18 14:30:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "SiteController.php".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('SiteController....')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/SiteController.php
+---
+2014/02/18 14:30:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/SiteController.php
+---
+2014/02/18 14:30:24 [error] [php] Undefined variable: cb (C:\xampp\htdocs\kaimito\protected\controllers\SiteController.php:79)
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CController.php(287): SiteController->runAction()
+#1 C:\xampp\htdocs\kaimito\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(283): SiteController->run()
+#3 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\kaimito\index.php(13): CWebApplication->run()
+REQUEST_URI=/kaimito/site/index.htm
+in C:\xampp\htdocs\kaimito\protected\controllers\SiteController.php (79)
+in C:\xampp\htdocs\kaimito\index.php (13)
+2014/02/18 14:30:33 [error] [php] Undefined variable: _SESSION (C:\xampp\htdocs\kaimito\protected\controllers\SiteController.php:79)
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CController.php(287): SiteController->runAction()
+#1 C:\xampp\htdocs\kaimito\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(283): SiteController->run()
+#3 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\kaimito\index.php(13): CWebApplication->run()
+REQUEST_URI=/kaimito/site/index.htm
+in C:\xampp\htdocs\kaimito\protected\controllers\SiteController.php (79)
+in C:\xampp\htdocs\kaimito\index.php (13)
+2014/02/18 14:30:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/site/index.htm
+---
+2014/02/18 14:34:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/site/index.htm
+---
+2014/02/18 14:36:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+---
+2014/02/18 14:50:48 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\kaimito\protected\views\site\index.php:12)
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\xampp\htdocs\kaimito\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\xampp\htdocs\kaimito\protected\controllers\SiteController.php(82): SiteController->render()
+#3 C:\xampp\htdocs\kaimito\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#4 C:\xampp\htdocs\kaimito\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\kaimito\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\xampp\htdocs\kaimito\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\kaimito\index.php(13): CWebApplication->run()
+REQUEST_URI=/kaimito/site/index.htm
+in C:\xampp\htdocs\kaimito\protected\views\site\index.php (12)
+in C:\xampp\htdocs\kaimito\protected\controllers\SiteController.php (82)
+in C:\xampp\htdocs\kaimito\index.php (13)
+2014/02/18 14:56:55 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\kaimito\protected\views\site\index.php:12)
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\xampp\htdocs\kaimito\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\xampp\htdocs\kaimito\protected\controllers\SiteController.php(82): SiteController->render()
+#3 C:\xampp\htdocs\kaimito\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#4 C:\xampp\htdocs\kaimito\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\kaimito\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\xampp\htdocs\kaimito\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\kaimito\index.php(13): CWebApplication->run()
+REQUEST_URI=/kaimito/site/index.htm
+in C:\xampp\htdocs\kaimito\protected\views\site\index.php (12)
+in C:\xampp\htdocs\kaimito\protected\controllers\SiteController.php (82)
+in C:\xampp\htdocs\kaimito\index.php (13)
+2014/02/18 15:00:00 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\kaimito\protected\views\site\index.php:12)
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\xampp\htdocs\kaimito\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\xampp\htdocs\kaimito\protected\controllers\SiteController.php(82): SiteController->render()
+#3 C:\xampp\htdocs\kaimito\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#4 C:\xampp\htdocs\kaimito\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\kaimito\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\xampp\htdocs\kaimito\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\kaimito\index.php(13): CWebApplication->run()
+REQUEST_URI=/kaimito/site/index.htm
+in C:\xampp\htdocs\kaimito\protected\views\site\index.php (12)
+in C:\xampp\htdocs\kaimito\protected\controllers\SiteController.php (82)
+in C:\xampp\htdocs\kaimito\index.php (13)
+2014/02/18 15:06:21 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\kaimito\protected\views\site\index.php:19)
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\xampp\htdocs\kaimito\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\xampp\htdocs\kaimito\protected\controllers\SiteController.php(83): SiteController->render()
+#3 C:\xampp\htdocs\kaimito\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#4 C:\xampp\htdocs\kaimito\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\kaimito\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\xampp\htdocs\kaimito\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\kaimito\index.php(13): CWebApplication->run()
+REQUEST_URI=/kaimito/site/index.htm
+in C:\xampp\htdocs\kaimito\protected\views\site\index.php (19)
+in C:\xampp\htdocs\kaimito\protected\controllers\SiteController.php (83)
+in C:\xampp\htdocs\kaimito\index.php (13)
+2014/02/18 15:07:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/site/index.htm
+---
+2014/02/18 15:12:13 [error] [php] Undefined index: text (C:\xampp\htdocs\kaimito\protected\views\site\index.php:20)
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\xampp\htdocs\kaimito\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\xampp\htdocs\kaimito\protected\controllers\SiteController.php(83): SiteController->render()
+#3 C:\xampp\htdocs\kaimito\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#4 C:\xampp\htdocs\kaimito\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\kaimito\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\xampp\htdocs\kaimito\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\kaimito\index.php(13): CWebApplication->run()
+REQUEST_URI=/kaimito/site/index.htm
+in C:\xampp\htdocs\kaimito\protected\views\site\index.php (20)
+in C:\xampp\htdocs\kaimito\protected\controllers\SiteController.php (83)
+in C:\xampp\htdocs\kaimito\index.php (13)
+2014/02/18 15:13:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/site/index.htm
+---
+2014/02/18 15:16:15 [error] [php] Undefined variable: tweetData (C:\xampp\htdocs\kaimito\protected\views\site\index.php:21)
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\xampp\htdocs\kaimito\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\xampp\htdocs\kaimito\protected\controllers\SiteController.php(83): SiteController->render()
+#3 C:\xampp\htdocs\kaimito\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#4 C:\xampp\htdocs\kaimito\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\kaimito\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\xampp\htdocs\kaimito\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\kaimito\index.php(13): CWebApplication->run()
+REQUEST_URI=/kaimito/site/index.htm
+in C:\xampp\htdocs\kaimito\protected\views\site\index.php (21)
+in C:\xampp\htdocs\kaimito\protected\controllers\SiteController.php (83)
+in C:\xampp\htdocs\kaimito\index.php (13)
+2014/02/18 15:16:51 [error] [php] Undefined variable: tweetData (C:\xampp\htdocs\kaimito\protected\views\site\index.php:21)
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\xampp\htdocs\kaimito\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\xampp\htdocs\kaimito\protected\controllers\SiteController.php(83): SiteController->render()
+#3 C:\xampp\htdocs\kaimito\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#4 C:\xampp\htdocs\kaimito\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\kaimito\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\xampp\htdocs\kaimito\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\kaimito\index.php(13): CWebApplication->run()
+REQUEST_URI=/kaimito/site/index.htm
+in C:\xampp\htdocs\kaimito\protected\views\site\index.php (21)
+in C:\xampp\htdocs\kaimito\protected\controllers\SiteController.php (83)
+in C:\xampp\htdocs\kaimito\index.php (13)
+2014/02/18 15:17:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/site/index.htm
+---
+2014/02/18 15:18:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/site/index.htm
+---
+2014/02/18 15:22:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/site/index.htm
+---
+2014/02/18 15:27:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/site/index.htm
+---
+2014/02/18 15:28:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/site/index.htm
+---
+2014/02/18 15:29:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/site/index.htm
+---
+2014/02/18 15:30:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/site/index.htm
+---
+2014/02/18 15:33:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/site/index.htm
+---
+2014/02/18 15:33:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap.css.map".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap.css.map
+HTTP_REFERER=http://localhost/kaimito/site/index.htm
+---
+2014/02/18 15:34:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/site/index.htm
+---
+2014/02/18 15:34:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap.css.map".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap.css.map
+HTTP_REFERER=http://localhost/kaimito/site/index.htm
+---
+2014/02/18 15:34:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/site/index.htm
+---
+2014/02/18 15:34:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap.css.map".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap.css.map
+HTTP_REFERER=http://localhost/kaimito/site/index.htm
+---
+2014/02/18 15:35:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/site/page.htm?view=about
+---
+2014/02/18 15:35:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/site/index.htm
+---
+2014/02/18 15:35:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap.css.map".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap.css.map
+HTTP_REFERER=http://localhost/kaimito/site/index.htm
+---
+2014/02/18 15:37:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/site/index.htm
+---
+2014/02/18 15:37:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap.css.map".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap.css.map
+HTTP_REFERER=http://localhost/kaimito/site/index.htm
+---
+2014/02/18 15:39:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/site/index.htm
+---
+2014/02/18 15:39:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap.css.map".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap.css.map
+HTTP_REFERER=http://localhost/kaimito/site/index.htm
+---
+2014/02/18 15:44:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/site/index.htm
+---
+2014/02/18 15:45:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap.css.map".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap.css.map
+HTTP_REFERER=http://localhost/kaimito/site/index.htm
+---
+2014/02/18 15:48:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/site/index.htm
+---
+2014/02/18 15:59:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/site/index.htm
+---
+2014/02/18 16:02:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/site/index.htm
+---
+2014/02/18 16:04:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/site/index.htm
+---
+2014/02/18 16:04:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/site/index.htm
+---
+2014/02/18 16:08:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/site/index.htm
+---
+2014/02/18 16:16:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/site/index.htm
+---
+2014/02/18 16:21:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/site/index.htm
+---
+2014/02/18 16:22:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/site/index.htm
+---
+2014/02/18 16:25:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/site/index.htm
+---
+2014/02/18 16:31:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/site/index.htm
+---
+2014/02/18 21:56:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/site/index.htm
+---
+2014/02/18 21:59:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/site/index.htm
+---
+2014/02/18 22:03:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap.css.map".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap.css.map
+HTTP_REFERER=http://localhost/kaimito/site/index.htm
+---
+2014/02/18 22:07:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap.css.map".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap.css.map
+HTTP_REFERER=http://localhost/kaimito/site/index.htm
+---
+2014/02/18 22:08:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap.css.map".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap.css.map
+HTTP_REFERER=http://localhost/kaimito/site/index.htm
+---
+2014/02/18 22:08:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/site/index.htm
+---
+2014/02/18 22:08:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap.css.map".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap.css.map
+HTTP_REFERER=http://localhost/kaimito/site/index.htm
+---
+2014/02/18 22:15:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap.css.map".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap.css.map
+HTTP_REFERER=http://localhost/kaimito/site/index.htm
+---
+2014/02/18 22:21:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/site/index.htm
+---
+2014/02/18 22:24:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/site/index.htm
+---
+2014/02/18 22:25:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/site/index.htm
+---
+2014/02/18 22:25:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap.css.map".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap.css.map
+HTTP_REFERER=http://localhost/kaimito/site/index.htm
+---
+2014/02/18 22:25:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/site/index.htm
+---
+2014/02/18 22:25:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap.css.map".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap.css.map
+HTTP_REFERER=http://localhost/kaimito/site/index.htm
+---
+2014/02/18 22:28:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/site/index.htm
+---
+2014/02/18 22:28:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap.css.map".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap.css.map
+HTTP_REFERER=http://localhost/kaimito/site/index.htm
+---
+2014/02/18 22:31:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/site/index.htm
+---
+2014/02/18 22:31:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap.css.map".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap.css.map
+HTTP_REFERER=http://localhost/kaimito/site/index.htm
+---
+2014/02/18 22:31:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/site/index.htm
+---
+2014/02/18 22:31:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap.css.map".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap.css.map
+HTTP_REFERER=http://localhost/kaimito/site/index.htm
+---
+2014/02/18 22:32:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/site/index.htm
+---
+2014/02/18 22:33:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap.css.map".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap.css.map
+HTTP_REFERER=http://localhost/kaimito/site/index.htm
+---
+2014/02/18 22:36:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/site/index.htm
+---
+2014/02/18 22:55:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/site/index.htm
+---
+2014/02/18 23:09:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/gii/default/login.htm
+---
+2014/02/18 23:09:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/gii/default/index.htm
+---
+2014/02/18 23:09:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/gii/controller.htm
+---
+2014/02/18 23:09:50 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in C:\xampp\htdocs\kaimito\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\xampp\htdocs\kaimito\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\xampp\htdocs\kaimito\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\xampp\htdocs\kaimito\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\xampp\htdocs\kaimito\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\xampp\htdocs\kaimito\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\xampp\htdocs\kaimito\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\xampp\htdocs\kaimito\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\xampp\htdocs\kaimito\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\xampp\htdocs\kaimito\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\kaimito\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\xampp\htdocs\kaimito\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/kaimito/gii/model.htm
+HTTP_REFERER=http://localhost/kaimito/gii/controller.htm
+---
+2014/02/18 23:10:18 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in C:\xampp\htdocs\kaimito\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\xampp\htdocs\kaimito\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\xampp\htdocs\kaimito\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\xampp\htdocs\kaimito\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\xampp\htdocs\kaimito\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\xampp\htdocs\kaimito\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\xampp\htdocs\kaimito\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\xampp\htdocs\kaimito\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\xampp\htdocs\kaimito\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\xampp\htdocs\kaimito\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\kaimito\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\xampp\htdocs\kaimito\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/kaimito/gii/model.htm
+HTTP_REFERER=http://localhost/kaimito/gii/controller.htm
+---
+2014/02/18 23:10:59 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in C:\xampp\htdocs\kaimito\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\xampp\htdocs\kaimito\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\xampp\htdocs\kaimito\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\xampp\htdocs\kaimito\framework\base\CModule.php(104): CModule->getComponent('db')
+#4 C:\xampp\htdocs\kaimito\framework\gii\generators\model\ModelCode.php(57): CModule->__get('db')
+#5 C:\xampp\htdocs\kaimito\framework\web\CFormModel.php(40): ModelCode->init()
+#6 C:\xampp\htdocs\kaimito\framework\gii\CCodeGenerator.php(154): CFormModel->__construct()
+#7 C:\xampp\htdocs\kaimito\framework\gii\CCodeGenerator.php(64): CCodeGenerator->prepare()
+#8 C:\xampp\htdocs\kaimito\framework\web\actions\CInlineAction.php(50): CCodeGenerator->actionIndex()
+#9 C:\xampp\htdocs\kaimito\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\kaimito\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 C:\xampp\htdocs\kaimito\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(283): CController->run('')
+#13 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/model')
+#14 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/kaimito/gii/model.htm
+HTTP_REFERER=http://localhost/kaimito/gii/controller.htm
+---
+2014/02/18 23:11:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/gii/model.htm
+---
+2014/02/18 23:11:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/gii/model.htm
+---
+2014/02/18 23:12:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/gii/model.htm
+---
+2014/02/18 23:12:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/gii/crud.htm
+---
+2014/02/18 23:13:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/gii/crud.htm
+---
+2014/02/18 23:13:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/gii/crud.htm
+---
+2014/02/18 23:17:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/gii/model.htm
+---
+2014/02/18 23:17:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/gii/model.htm
+---
+2014/02/18 23:17:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/gii/model.htm
+---
+2014/02/18 23:17:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/gii/model.htm
+---
+2014/02/18 23:18:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/gii/model.htm
+---
+2014/02/18 23:18:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/gii/crud.htm
+---
+2014/02/18 23:18:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/gii/crud.htm
+---
+2014/02/18 23:18:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/gii/controller.htm
+---
+2014/02/18 23:19:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/gii/controller.htm
+---
+2014/02/18 23:19:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/gii/controller.htm
+---
+2014/02/18 23:19:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/auth.htm
+---
+2014/02/18 23:20:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/site/index.htm
+---
+2014/02/19 00:03:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/site/index.htm
+---
+2014/02/19 00:05:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/site/index.htm
+---
+2014/02/19 00:12:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/site/index.htm
+---
+2014/02/19 00:13:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/site/index.htm
+---
+2014/02/19 00:15:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/site/index.htm
+---
+2014/02/19 00:16:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/site/index.htm
+---
+2014/02/19 11:29:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2441814/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2441814...')
+#1 C:\xampp\htdocs\kaimito\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/assets/d2441814/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/site/index.htm
+---
