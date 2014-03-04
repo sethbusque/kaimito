@@ -41,12 +41,13 @@ class SiteController extends Controller
 		if (! isset($_SESSION['oauth_token'])) {
 		    // get the request token
 		    var_dump($cb);
-		    // die();
+		    die();
 		
 		    $reply = $cb->oauth_requestToken(array(
 		        'oauth_callback' => 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']
 		    ));
-
+			var_dump($reply);
+			die();
 		    // store the token
 		    $cb->setToken($reply->oauth_token, $reply->oauth_token_secret);
 		    $_SESSION['oauth_token'] = $reply->oauth_token;
