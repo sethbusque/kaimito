@@ -36,7 +36,7 @@ class SiteController extends Controller
 		$cb = \Codebird\Codebird::getInstance();
 
 		session_start();
-		/*
+
 		
 		if (! isset($_SESSION['oauth_token'])) {
 		    // get the request token
@@ -76,8 +76,7 @@ class SiteController extends Controller
 
 		// assign access token on each page load
 		$cb->setToken($_SESSION['oauth_token'], $_SESSION['oauth_token_secret']);
-		*/
-		$cb->setToken($_SESSION['oauth_token'], $_SESSION['oauth_token_secret']); // see above
+
 		$reply = (array) $cb->statuses_homeTimeline();
 		$this->render('index',array('reply'=>$reply));
 	}
