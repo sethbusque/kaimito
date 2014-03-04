@@ -123,7 +123,7 @@ abstract class TbBaseMenu extends CMenu
 			if (strpos($item['icon'], 'icon') === false)
 			{
 				$pieces = explode(' ', $item['icon']);
-				$item['icon'] = 'icon-'.implode(' icon-', $pieces);
+				$item['icon'] = 'glyphicon glyphicon-'.implode(' icon-', $pieces);
 			}
 
 			$item['label'] = '<i class="'.$item['icon'].'"></i> '.$item['label'];

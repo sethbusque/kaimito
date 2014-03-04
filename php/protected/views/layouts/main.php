@@ -101,10 +101,8 @@
 
 			<div class="clear"></div>
 
-			<div id="footer">
-				Copyright &copy; <?php echo date('Y'); ?> by My Company.<br/>
-				All Rights Reserved.<br/>
-				<?php echo Yii::powered(); ?>
+			<div id="footer" style="text-align:center">
+				<small class="text-muted">Copyright &copy; <?php echo date('Y'); ?> by Seth Marquin Busque. All Rights Reserved.</small>
 			</div><!-- footer -->
 		</div>
 	</div>
