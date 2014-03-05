@@ -5,6 +5,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link href="<?php echo Yii::app()->request->baseUrl; ?>/images/favicon.ico" rel="icon" type="image/x-icon" />
 
 	<!-- blueprint CSS framework -->
 	<!--
@@ -43,17 +45,6 @@
 				array(
 					'label'=>'Home',
 					'url'=>array('/site/index')
-				),
-				array(
-					'label'=>'About', 
-					'url'=>array(
-						'/site/page', 
-						'view'=>'about'
-					)
-				),
-				array(
-					'label'=>'Contact',
-					'url'=>array('/site/contact')
 				)
 			)
 		),

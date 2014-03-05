@@ -148,6 +148,28 @@ return array(
             'tags' => array('yii'), // You may also specify some Mailgun parameters
             'enableTracking' => false,
         ),
+
+        'mail' => array(
+ 			'class' => 'ext.yii-mail.YiiMail',
+ 			'transportType' => 'smtp',
+ 			'transportOptions' => array(
+ 				'host'=>getenv("MAILGUN_SMTP_SERVER") ? 
+						getenv("MAILGUN_SMTP_SERVER") : 
+						"smtp.mailgun.org",
+				'username'=>getenv("MAILGUN_SMTP_LOGIN") ? 
+						getenv("MAILGUN_SMTP_LOGIN") : 
+						"postmaster@atmssethbusque.mailgun.org",
+				'password'=>getenv("MAILGUN_SMTP_PASSWORD") ? 
+						getenv("MAILGUN_SMTP_PASSWORD") : 
+						"065ddxkqfzr6",
+				'port'=>getenv("MAILGUN_SMTP_PORT") ? 
+						getenv("MAILGUN_SMTP_PORT") : 
+						"587"
+ 			),
+ 			'viewPath' => 'application.views.mail',
+ 			'logging' => true,
+ 			'dryRun' => false
+ 		),
 	),
 
 	// application-level parameters that can be accessed

@@ -30,7 +30,11 @@ class SiteController extends Controller
 	{
 		// renders the view file 'protected/views/site/index.php'
 		// using the default layout 'protected/views/layouts/main.php'
-
+		if(!Yii::app()->user->isGuest){
+			$this->redirect(array('stream/index'));
+		}
+		$this->layout = "//layouts/sitelanding";
+		
 		$this->render('index');
 	}
 
