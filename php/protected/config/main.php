@@ -5,6 +5,15 @@
 
 // This is the main Web application configuration. Any writable
 // CWebApplication properties can be configured here.
+
+$localhost = true;
+
+$blacklist = array('127.0.0.1','::1');
+
+if(!in_array($_SERVER['REMOTE_ADDR'], $blacklist)){
+	$localhost = false;
+}
+
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 	'name'=>'Kaimito',
@@ -89,10 +98,10 @@ return array(
 		*/
 		// uncomment the following to use a MySQL database
 		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=kaimito',
+			'connectionString' => $localhost ? 'mysql:host=localhost;dbname=kaimito' : 'mysql:host='.$OPENSHIFT_MYSQL_DB_HOST.':'.$OPENSHIFT_MYSQL_DB_PORT.';dbname=php',
 			'emulatePrepare' => true,
-			'username' => 'root',
-			'password' => 'gjn5tdgs',
+			'username' => $localhost ? 'root' : $OPENSHIFT_MYSQL_DB_USERNAME,
+			'password' => $localhost ? 'gjn5tdgs' : $OPENSHIFT_MYSQL_DB_PASSWORD,
 			'charset' => 'utf8',
 			'tablePrefix' => 'tbl_',
 		),
