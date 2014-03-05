@@ -226,7 +226,7 @@ class UserModule extends CWebModule
 		$mailMessage->setSubject($subject);
 		$mailMessage->addTo($email);
 		$mailMessage->from = Yii::app()->params['adminEmail'];
-		Yii::app()->mail->send($mailMessage);
+		return Yii::app()->mail->send($mailMessage);
 	}
 	
 	/**
