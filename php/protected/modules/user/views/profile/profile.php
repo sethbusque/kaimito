@@ -27,6 +27,7 @@ $this->menu=array(
 		        'alt'=>'Gravatar image',
 		        'title'=>'Gravatar image',
 		        'class'=>'img-rounded'
+		        'style'=>'width:128px;height:128px'
 		    )
 		)); ?>
 	</div>
