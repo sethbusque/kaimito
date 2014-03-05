@@ -5,6 +5,47 @@ $this->pageTitle=Yii::app()->name;
 <div class="jumbotron kaimito-jumbotron">
 	<div class="container">
 		<div class="row">
+			<?php $this->widget('bootstrap.widgets.TbNavbar',array(
+				'type'     => 'inverse',
+				'fixed'    => null,
+				// 'brand'    => Yii::app()->name,
+				'brand'    => CHtml::image(Yii::app()->request->baseUrl . '/images/navbrand.png'),
+				'brandUrl' => array('/site/index'),
+				'collapse' =>true,
+				'htmlOptions'=>array(
+					'class'=>'campaign-navbar'
+				),
+				'items'=>array(
+					array(
+						'class' => 'bootstrap.widgets.TbMenu',
+						'items'=>array(
+							array(
+								'url'=>Yii::app()->getModule('user')->loginUrl, 
+								'label'=>Yii::app()->getModule('user')->t("Login"), 
+								'visible'=>Yii::app()->user->isGuest
+							),
+							array(
+								'url'=>Yii::app()->getModule('user')->registrationUrl, 
+								'label'=>Yii::app()->getModule('user')->t("Register"), 
+								'visible'=>Yii::app()->user->isGuest
+							),
+							array(
+								'url'=>Yii::app()->getModule('user')->profileUrl, 
+								'label'=>Yii::app()->getModule('user')->t("Profile"), 
+								'visible'=>!Yii::app()->user->isGuest
+							),
+							array(
+								'url'=>Yii::app()->getModule('user')->logoutUrl, 
+								'label'=>Yii::app()->getModule('user')->t("Logout").' ('.Yii::app()->user->name.')', 
+								'visible'=>!Yii::app()->user->isGuest
+							),
+						),
+						'htmlOptions'=>array(
+							'class'=>'navbar-right'
+						)
+					)
+				),
+			)); ?>
 			<div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
 				<h1>Hastle-free social media dashboard.</h1>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis facere dolore aliquid porro iure asperiores perferendis. Et quos nisi sed magni repellendus repudiandae vitae repellat nesciunt iusto beatae. Enim, quae?</p>
