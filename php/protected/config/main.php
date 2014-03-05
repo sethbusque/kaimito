@@ -14,6 +14,12 @@ if(!in_array($_SERVER['REMOTE_ADDR'], $blacklist)){
 	$localhost = false;
 }
 
+$username      = $localhost ? getenv("OPENSHIFT_MYSQL_DB_USERNAME") : "root";
+$password      = $localhost ? getenv("OPENSHIFT_MYSQL_DB_PASSWORD") : "gjn5tdgs";
+$hostname      = $localhost ? getenv("OPENSHIFT_MYSQL_DB_HOST") : "localhost";
+$port          = $localhost ? getenv("OPENSHIFT_MYSQL_DB_PORT") : "";
+$db            = $localhost ? "php" : "kaimito";
+
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 	'name'=>'Kaimito',
@@ -98,9 +104,10 @@ return array(
 		*/
 		// uncomment the following to use a MySQL database
 		'db'=>array(
-			'connectionString' => 'mysql:host=127.5.163.2:3306;dbname=php',
-			'username' => 'adminxdzrJH8',
-			'password' => 'xr6Pgj74vBl2',
+			'connectionString' => 'mysql:host='.$hostname.';dbname='.$db.';port='.$port,
+			'emulatePrepare' => true,
+			'username' => $username,
+			'password' => $password,
 			'charset' => 'utf8',
 			'tablePrefix' => 'tbl_',
 		),
