@@ -167,7 +167,7 @@ class TbButton extends CWidget
 		if (isset($this->icon))
 		{
 			if (strpos($this->icon, 'icon') === false)
-				$this->icon = 'icon-'.implode(' icon-', explode(' ', $this->icon));
+				$this->icon = 'glyphicon glyphicon-'.implode(' icon-', explode(' ', $this->icon));
 
 			$this->label = '<i class="'.$this->icon.'"></i> '.$this->label;
 		}
