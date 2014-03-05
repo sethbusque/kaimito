@@ -219,7 +219,7 @@ class UserModule extends CWebModule
 	 * Send mail method
 	 */
 	public static function sendMail($email,$subject,$message) {
-		Yii::import('application.extensions.yii-mail.*');
+		Yii::import('application.extensions.yii-mail.YiiMailMessage');
 		$mailMessage = new YiiMailMessage;
 		$mailMessage->view = 'basic';
 		$mailMessage->setBody(array('message'=>$message), 'text/html');
