@@ -38,12 +38,13 @@ $this->pageTitle=Yii::app()->name;
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 				<h1>All your social networks at one glance.</h1>
 				<h3 class="text-muted">Unify your social media into one stream.</h3>
-				<img src="/kaimito/php/images/facebook_square.png" alt="Facebook Logo" style="width:64px;height:64px">
-				<img src="/kaimito/php/images/twitter_square.png" alt="Twitter Logo" style="width:64px;height:64px">
-				<img src="/kaimito/php/images/googleplus_square.png" alt="Google+ Logo" style="width:64px;height:64px">
-				<img src="/kaimito/php/images/linkedin_square.png" alt="LinkedIn Logo" style="width:64px;height:64px">
-				<img src="/kaimito/php/images/tumblr_square.png" alt="Tumblr Logo" style="width:64px;height:64px">
-				<img src="/kaimito/php/images/wordpress_square.png" alt="Wordpress Logo" style="width:64px;height:64px">
+				<?php echo CHtml::image(Yii::app()->request->baseUrl . '/images/facebook_square.png',"Facebook Logo",array("style"=>"width:64px;height:64px")); ?>
+				<?php echo CHtml::image(Yii::app()->request->baseUrl . '/images/facebook_square.png',"Facebook Logo",array("style"=>"width:64px;height:64px")); ?>
+				<?php echo CHtml::image(Yii::app()->request->baseUrl . '/images/twitter_square.png',"Twitter Logo",array("style"=>"width:64px;height:64px")); ?>
+				<?php echo CHtml::image(Yii::app()->request->baseUrl . '/images/googleplus_square.png',"Google+ Logo", array("style"=>"width:64px;height:64px")); ?>
+				<?php echo CHtml::image(Yii::app()->request->baseUrl . '/images/linkedin_square.png',"LinkedIn Logo",array("style"=>"width:64px;height:64px")); ?>
+				<?php echo CHtml::image(Yii::app()->request->baseUrl . '/images/tumblr_square.png',"Tumblr Logo", array("style"=>"width:64px;height:64px")); ?>
+				<?php echo CHtml::image(Yii::app()->request->baseUrl . '/images/wordpress_square.png',"Wordpress Logo",array("style"=>"width:64px;height:64px")); ?>
 			</div>
 		</div>
 	</div>
@@ -60,21 +61,21 @@ $this->pageTitle=Yii::app()->name;
 		<!-- Wrapper for slides -->
 		<div class="carousel-inner">
 			<div class="item active">
-				<img src="/kaimito/php/images/carousel1.jpg" alt="Carousel 1">
+				<?php echo CHtml::image(Yii::app()->request->baseUrl . '/images/carousel1.jpg','Carousel 1'); ?>
 				<div class="carousel-caption">
 					<h1>Heading 1</h1>
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum sapiente nulla aliquam id et adipisci sed maiores voluptatibus quo quasi. Explicabo, fuga ab nemo quaerat ad saepe optio molestias enim!
 				</div>
 			</div>
 			<div class="item">
-				<img src="/kaimito/php/images/carousel2.jpg" alt="Carousel 2">
+				<?php echo CHtml::image(Yii::app()->request->baseUrl . '/images/carousel2.jpg','Carousel 2'); ?>
 				<div class="carousel-caption">
 					<h1>Heading 2</h1>
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum sapiente nulla aliquam id et adipisci sed maiores voluptatibus quo quasi. Explicabo, fuga ab nemo quaerat ad saepe optio molestias enim!
 				</div>
 			</div>
 			<div class="item">
-				<img src="/kaimito/php/images/carousel3.jpg" alt="Carousel 3">
+				<?php echo CHtml::image(Yii::app()->request->baseUrl . '/images/carousel3.jpg','Carousel 3'); ?>
 				<div class="carousel-caption">
 					<h1>Heading 3</h1>
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum sapiente nulla aliquam id et adipisci sed maiores voluptatibus quo quasi. Explicabo, fuga ab nemo quaerat ad saepe optio molestias enim!
