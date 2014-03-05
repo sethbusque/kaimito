@@ -14,6 +14,9 @@ if(!in_array($_SERVER['REMOTE_ADDR'], $blacklist)){
 	$localhost = false;
 }
 
+var_dump($OPENSHIFT_MYSQL_DB_HOST);
+die();
+
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 	'name'=>'Kaimito',
