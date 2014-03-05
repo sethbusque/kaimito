@@ -19,7 +19,7 @@ $this->menu=array(
 		<?php $this->widget('ext.yii-gravatar.YiiGravatar', array(
 		    'email'=>$model->email,
 		    'size'=>128,
-		    'defaultImage'=>Yii::app()->request->getBaseUrl(true) . '/images/navbrand.png',
+		    'defaultImage'=>Yii::app()->request->getBaseUrl(true) . '/images/kaimito-512.png',
 		    'secure'=>false,
 		    'rating'=>'r',
 		    'emailHashed'=>false,
