@@ -99,7 +99,6 @@ return array(
 		// uncomment the following to use a MySQL database
 		'db'=>array(
 			'connectionString' => 'mysql:host=127.5.163.2:3306;dbname=php',
-			'emulatePrepare' => true,
 			'username' => 'adminxdzrJH8',
 			'password' => 'xr6Pgj74vBl2',
 			'charset' => 'utf8',
