@@ -14,7 +14,7 @@ if(!in_array($_SERVER['REMOTE_ADDR'], $blacklist)){
 	$localhost = false;
 }
 
-var_dump($OPENSHIFT_MYSQL_DB_HOST);
+var_dump(getenv('OPENSHIFT_MYSQL_DB_HOST'));
 die();
 
 return array(
