@@ -39,7 +39,6 @@ $this->pageTitle=Yii::app()->name;
 				<h1>All your social networks at one glance.</h1>
 				<h3 class="text-muted">Unify your social media into one stream.</h3>
 				<?php echo CHtml::image(Yii::app()->request->baseUrl . '/images/facebook_square.png',"Facebook Logo",array("style"=>"width:64px;height:64px")); ?>
-				<?php echo CHtml::image(Yii::app()->request->baseUrl . '/images/facebook_square.png',"Facebook Logo",array("style"=>"width:64px;height:64px")); ?>
 				<?php echo CHtml::image(Yii::app()->request->baseUrl . '/images/twitter_square.png',"Twitter Logo",array("style"=>"width:64px;height:64px")); ?>
 				<?php echo CHtml::image(Yii::app()->request->baseUrl . '/images/googleplus_square.png',"Google+ Logo", array("style"=>"width:64px;height:64px")); ?>
 				<?php echo CHtml::image(Yii::app()->request->baseUrl . '/images/linkedin_square.png',"LinkedIn Logo",array("style"=>"width:64px;height:64px")); ?>
@@ -61,21 +60,21 @@ $this->pageTitle=Yii::app()->name;
 		<!-- Wrapper for slides -->
 		<div class="carousel-inner">
 			<div class="item active">
-				<?php echo CHtml::image(Yii::app()->request->baseUrl . '/images/carousel1.jpg','Carousel 1'); ?>
+				<?php echo CHtml::image(Yii::app()->request->baseUrl . '/images/carousel1a.jpg','Carousel 1'); ?>
 				<div class="carousel-caption">
 					<h1>Heading 1</h1>
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum sapiente nulla aliquam id et adipisci sed maiores voluptatibus quo quasi. Explicabo, fuga ab nemo quaerat ad saepe optio molestias enim!
 				</div>
 			</div>
 			<div class="item">
-				<?php echo CHtml::image(Yii::app()->request->baseUrl . '/images/carousel2.jpg','Carousel 2'); ?>
+				<?php echo CHtml::image(Yii::app()->request->baseUrl . '/images/carousel2b.jpg','Carousel 2'); ?>
 				<div class="carousel-caption">
 					<h1>Heading 2</h1>
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum sapiente nulla aliquam id et adipisci sed maiores voluptatibus quo quasi. Explicabo, fuga ab nemo quaerat ad saepe optio molestias enim!
 				</div>
 			</div>
 			<div class="item">
-				<?php echo CHtml::image(Yii::app()->request->baseUrl . '/images/carousel3.jpg','Carousel 3'); ?>
+				<?php echo CHtml::image(Yii::app()->request->baseUrl . '/images/carousel3c.jpg','Carousel 3'); ?>
 				<div class="carousel-caption">
 					<h1>Heading 3</h1>
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum sapiente nulla aliquam id et adipisci sed maiores voluptatibus quo quasi. Explicabo, fuga ab nemo quaerat ad saepe optio molestias enim!
