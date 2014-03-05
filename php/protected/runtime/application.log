@@ -4316,3 +4316,105 @@ Stack trace:
 REQUEST_URI=/kaimito/php/assets/d2e5caca/css/bootstrap-yii.css
 HTTP_REFERER=http://localhost/kaimito/php/site/index.htm
 ---
+2014/03/05 06:04:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2e5caca/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2e5caca...')
+#1 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\php\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/php/assets/d2e5caca/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/php/
+---
+2014/03/05 06:04:46 [error] [php] PDO::__construct():  (C:\xampp\htdocs\kaimito\php\framework\db\CDbConnection.php:422)
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\xampp\htdocs\kaimito\php\framework\db\CDbConnection.php(309): CDbConnection->setActive()
+#2 C:\xampp\htdocs\kaimito\php\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(431): CWebApplication->getComponent()
+#4 C:\xampp\htdocs\kaimito\php\framework\db\ar\CActiveRecord.php(624): CWebApplication->getDb()
+#5 C:\xampp\htdocs\kaimito\php\framework\db\ar\CActiveRecord.php(2311): RegistrationForm->getDbConnection()
+#6 C:\xampp\htdocs\kaimito\php\framework\db\ar\CActiveRecord.php(388): CActiveRecordMetaData->__construct()
+#7 C:\xampp\htdocs\kaimito\php\framework\db\ar\CActiveRecord.php(403): model()
+#8 C:\xampp\htdocs\kaimito\php\framework\db\ar\CActiveRecord.php(78): RegistrationForm->getMetaData()
+#9 C:\xampp\htdocs\kaimito\php\protected\modules\user\controllers\RegistrationController.php(23): RegistrationForm->__construct()
+#10 C:\xampp\htdocs\kaimito\php\framework\web\actions\CInlineAction.php(50): RegistrationController->actionRegistration()
+#11 C:\xampp\htdocs\kaimito\php\framework\web\CController.php(309): CInlineAction->runWithParams()
+#12 C:\xampp\htdocs\kaimito\php\framework\web\CController.php(287): RegistrationController->runAction()
+#13 C:\xampp\htdocs\kaimito\php\framework\web\CController.php(266): RegistrationController->runActionWithFilters()
+#14 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(283): RegistrationController->run()
+#15 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#16 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\kaimito\php\index.php(13): CWebApplication->run()
+REQUEST_URI=/kaimito/php/user/registration.htm
+in C:\xampp\htdocs\kaimito\php\protected\modules\user\controllers\RegistrationController.php (23)
+in C:\xampp\htdocs\kaimito\php\index.php (13)
+2014/03/05 06:05:15 [error] [php] PDO::__construct():  (C:\xampp\htdocs\kaimito\php\framework\db\CDbConnection.php:422)
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\xampp\htdocs\kaimito\php\framework\db\CDbConnection.php(309): CDbConnection->setActive()
+#2 C:\xampp\htdocs\kaimito\php\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(431): CWebApplication->getComponent()
+#4 C:\xampp\htdocs\kaimito\php\framework\db\ar\CActiveRecord.php(624): CWebApplication->getDb()
+#5 C:\xampp\htdocs\kaimito\php\framework\db\ar\CActiveRecord.php(2311): RegistrationForm->getDbConnection()
+#6 C:\xampp\htdocs\kaimito\php\framework\db\ar\CActiveRecord.php(388): CActiveRecordMetaData->__construct()
+#7 C:\xampp\htdocs\kaimito\php\framework\db\ar\CActiveRecord.php(403): model()
+#8 C:\xampp\htdocs\kaimito\php\framework\db\ar\CActiveRecord.php(78): RegistrationForm->getMetaData()
+#9 C:\xampp\htdocs\kaimito\php\protected\modules\user\controllers\RegistrationController.php(23): RegistrationForm->__construct()
+#10 C:\xampp\htdocs\kaimito\php\framework\web\actions\CInlineAction.php(50): RegistrationController->actionRegistration()
+#11 C:\xampp\htdocs\kaimito\php\framework\web\CController.php(309): CInlineAction->runWithParams()
+#12 C:\xampp\htdocs\kaimito\php\framework\web\CController.php(287): RegistrationController->runAction()
+#13 C:\xampp\htdocs\kaimito\php\framework\web\CController.php(266): RegistrationController->runActionWithFilters()
+#14 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(283): RegistrationController->run()
+#15 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#16 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\kaimito\php\index.php(13): CWebApplication->run()
+REQUEST_URI=/kaimito/php/user/registration.htm
+in C:\xampp\htdocs\kaimito\php\protected\modules\user\controllers\RegistrationController.php (23)
+in C:\xampp\htdocs\kaimito\php\index.php (13)
+2014/03/05 06:05:18 [error] [php] PDO::__construct():  (C:\xampp\htdocs\kaimito\php\framework\db\CDbConnection.php:422)
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\xampp\htdocs\kaimito\php\framework\db\CDbConnection.php(309): CDbConnection->setActive()
+#2 C:\xampp\htdocs\kaimito\php\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(431): CWebApplication->getComponent()
+#4 C:\xampp\htdocs\kaimito\php\framework\db\ar\CActiveRecord.php(624): CWebApplication->getDb()
+#5 C:\xampp\htdocs\kaimito\php\framework\db\ar\CActiveRecord.php(2311): RegistrationForm->getDbConnection()
+#6 C:\xampp\htdocs\kaimito\php\framework\db\ar\CActiveRecord.php(388): CActiveRecordMetaData->__construct()
+#7 C:\xampp\htdocs\kaimito\php\framework\db\ar\CActiveRecord.php(403): model()
+#8 C:\xampp\htdocs\kaimito\php\framework\db\ar\CActiveRecord.php(78): RegistrationForm->getMetaData()
+#9 C:\xampp\htdocs\kaimito\php\protected\modules\user\controllers\RegistrationController.php(23): RegistrationForm->__construct()
+#10 C:\xampp\htdocs\kaimito\php\framework\web\actions\CInlineAction.php(50): RegistrationController->actionRegistration()
+#11 C:\xampp\htdocs\kaimito\php\framework\web\CController.php(309): CInlineAction->runWithParams()
+#12 C:\xampp\htdocs\kaimito\php\framework\web\CController.php(287): RegistrationController->runAction()
+#13 C:\xampp\htdocs\kaimito\php\framework\web\CController.php(266): RegistrationController->runActionWithFilters()
+#14 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(283): RegistrationController->run()
+#15 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#16 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\kaimito\php\index.php(13): CWebApplication->run()
+REQUEST_URI=/kaimito/php/user/registration.htm
+in C:\xampp\htdocs\kaimito\php\protected\modules\user\controllers\RegistrationController.php (23)
+in C:\xampp\htdocs\kaimito\php\index.php (13)
+2014/03/05 06:05:24 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'adminxdzrJH8'@'localhost' (using password: YES)' in C:\xampp\htdocs\kaimito\php\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\xampp\htdocs\kaimito\php\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\xampp\htdocs\kaimito\php\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(431): CModule->getComponent('db')
+#4 C:\xampp\htdocs\kaimito\php\framework\db\ar\CActiveRecord.php(624): CApplication->getDb()
+#5 C:\xampp\htdocs\kaimito\php\framework\db\ar\CActiveRecord.php(2311): CActiveRecord->getDbConnection()
+#6 C:\xampp\htdocs\kaimito\php\framework\db\ar\CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(RegistrationForm))
+#7 C:\xampp\htdocs\kaimito\php\framework\db\ar\CActiveRecord.php(403): CActiveRecord::model('RegistrationFor...')
+#8 C:\xampp\htdocs\kaimito\php\framework\db\ar\CActiveRecord.php(78): CActiveRecord->getMetaData()
+#9 C:\xampp\htdocs\kaimito\php\protected\modules\user\controllers\RegistrationController.php(23): CActiveRecord->__construct()
+#10 C:\xampp\htdocs\kaimito\php\framework\web\actions\CInlineAction.php(50): RegistrationController->actionRegistration()
+#11 C:\xampp\htdocs\kaimito\php\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\kaimito\php\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\kaimito\php\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(283): CController->run('')
+#15 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController('user/registrati...')
+#16 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\kaimito\php\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/kaimito/php/user/registration.htm
+HTTP_REFERER=http://localhost/kaimito/php/
+---

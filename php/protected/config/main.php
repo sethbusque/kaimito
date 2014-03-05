@@ -98,10 +98,10 @@ return array(
 		*/
 		// uncomment the following to use a MySQL database
 		'db'=>array(
-			'connectionString' => $localhost ? 'mysql:host=localhost;dbname=kaimito' : 'mysql:host='.getenv('OPENSHIFT_MYSQL_DB_HOST').':'.getenv("OPENSHIFT_MYSQL_DB_PORT").';dbname=php',
+			'connectionString' => 'mysql:host=127.5.163.2:3306;dbname=php',
 			'emulatePrepare' => true,
-			'username' => $localhost ? 'root' : getenv("OPENSHIFT_MYSQL_DB_USERNAME"),
-			'password' => $localhost ? 'gjn5tdgs' : getenv("OPENSHIFT_MYSQL_DB_PASSWORD"),
+			'username' => 'adminxdzrJH8',
+			'password' => 'xr6Pgj74vBl2',
 			'charset' => 'utf8',
 			'tablePrefix' => 'tbl_',
 		),
