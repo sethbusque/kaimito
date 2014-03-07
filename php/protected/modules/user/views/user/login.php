@@ -40,12 +40,29 @@ $this->pageTitle=Yii::app()->name . ' - '.UserModule::t("Login");
 					
 				<?php echo CHtml::endForm(); ?>
 				<hr>
-				<span class="pull-left">
-					<?php echo CHtml::link(UserModule::t("Register"),Yii::app()->getModule('user')->registrationUrl); ?>
-				</span>
-				<span class="pull-right">
-					<?php echo CHtml::link(UserModule::t("Lost Password?"),Yii::app()->getModule('user')->recoveryUrl); ?>
-				</span>
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+						<span class="pull-left">
+							<?php echo CHtml::link(UserModule::t("Register"),Yii::app()->getModule('user')->registrationUrl); ?>
+						</span>
+						<span class="pull-right">
+							<?php echo CHtml::link(UserModule::t("Lost Password?"),Yii::app()->getModule('user')->recoveryUrl); ?>
+						</span>
+					</div>
+				</div>
+				<hr>
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+						<span class="pull-left">
+							Sign in with your account
+						</span>
+						<span class="pull-right">
+							<?php $this->widget('application.modules.hybridauth.widgets.renderProviders',array(
+								'target'=>'login'
+							)); ?>
+						</span>
+					</div>
+				</div>
 		  	</div>
 		</div>
 	</div>

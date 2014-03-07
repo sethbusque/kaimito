@@ -9683,3 +9683,774 @@ REQUEST_URI=/kaimito/php/hybridauth/default/callback?hauth.done=google&code=4/iE
 in C:\xampp\htdocs\kaimito\php\protected\modules\hybridauth\Hybrid\thirdparty\OAuth\OAuth2Client.php (79)
 in C:\xampp\htdocs\kaimito\php\protected\modules\hybridauth\Hybrid\Provider_Model_OAuth2.php (109)
 in C:\xampp\htdocs\kaimito\php\protected\modules\hybridauth\Hybrid\Endpoint.php (190)
+2014/03/07 07:12:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2e5caca/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2e5caca...')
+#1 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\php\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/php/assets/d2e5caca/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/php/stream/index.htm
+---
+2014/03/07 07:12:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2e5caca/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2e5caca...')
+#1 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\php\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/php/assets/d2e5caca/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/php/user/login.htm
+---
+2014/03/07 07:14:36 [error] [php] Undefined variable: target (C:\xampp\htdocs\kaimito\php\protected\modules\hybridauth\widgets\renderProviders.php:39)
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CBaseController.php(127): require()
+#1 C:\xampp\htdocs\kaimito\php\framework\web\CBaseController.php(96): LoginController->renderInternal()
+#2 C:\xampp\htdocs\kaimito\php\framework\web\CController.php(870): LoginController->renderFile()
+#3 C:\xampp\htdocs\kaimito\php\framework\web\CController.php(783): LoginController->renderPartial()
+#4 C:\xampp\htdocs\kaimito\php\protected\modules\user\controllers\LoginController.php(29): LoginController->render()
+#5 C:\xampp\htdocs\kaimito\php\framework\web\actions\CInlineAction.php(50): LoginController->actionLogin()
+#6 C:\xampp\htdocs\kaimito\php\framework\web\CController.php(309): CInlineAction->runWithParams()
+#7 C:\xampp\htdocs\kaimito\php\framework\web\CController.php(287): LoginController->runAction()
+#8 C:\xampp\htdocs\kaimito\php\framework\web\CController.php(266): LoginController->runActionWithFilters()
+#9 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(283): LoginController->run()
+#10 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#11 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\kaimito\php\index.php(13): CWebApplication->run()
+REQUEST_URI=/kaimito/php/user/login.htm
+in C:\xampp\htdocs\kaimito\php\protected\modules\hybridauth\widgets\renderProviders.php (39)
+in C:\xampp\htdocs\kaimito\php\protected\modules\user\views\user\login.php (50)
+in C:\xampp\htdocs\kaimito\php\protected\modules\user\controllers\LoginController.php (29)
+2014/03/07 07:15:59 [error] [exception.CException] exception 'CException' with message 'Property "renderProviders.target" is not defined.' in C:\xampp\htdocs\kaimito\php\framework\base\CComponent.php:174
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CWidgetFactory.php(162): CComponent->__set('target', 'login')
+#1 C:\xampp\htdocs\kaimito\php\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(LoginController), 'application.mod...', Array)
+#2 C:\xampp\htdocs\kaimito\php\framework\web\CBaseController.php(173): CBaseController->createWidget('application.mod...', Array)
+#3 C:\xampp\htdocs\kaimito\php\protected\modules\user\views\user\login.php(52): CBaseController->widget('application.mod...', Array)
+#4 C:\xampp\htdocs\kaimito\php\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\kaimito\php\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\kaimito\php\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\kaimito\php\framework\web\CController.php(783): CController->renderPartial('/user/login', Array, true)
+#8 C:\xampp\htdocs\kaimito\php\protected\modules\user\controllers\LoginController.php(29): CController->render('/user/login', Array)
+#9 C:\xampp\htdocs\kaimito\php\framework\web\actions\CInlineAction.php(50): LoginController->actionLogin()
+#10 C:\xampp\htdocs\kaimito\php\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\kaimito\php\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\kaimito\php\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(283): CController->run('')
+#14 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController('user/login')
+#15 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\kaimito\php\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/kaimito/php/user/login.htm
+HTTP_REFERER=http://localhost/kaimito/php/stream/index.htm
+---
+2014/03/07 07:16:01 [error] [exception.CException] exception 'CException' with message 'Property "renderProviders.target" is not defined.' in C:\xampp\htdocs\kaimito\php\framework\base\CComponent.php:174
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CWidgetFactory.php(162): CComponent->__set('target', 'login')
+#1 C:\xampp\htdocs\kaimito\php\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(LoginController), 'application.mod...', Array)
+#2 C:\xampp\htdocs\kaimito\php\framework\web\CBaseController.php(173): CBaseController->createWidget('application.mod...', Array)
+#3 C:\xampp\htdocs\kaimito\php\protected\modules\user\views\user\login.php(52): CBaseController->widget('application.mod...', Array)
+#4 C:\xampp\htdocs\kaimito\php\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\kaimito\php\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#6 C:\xampp\htdocs\kaimito\php\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\kaimito\php\framework\web\CController.php(783): CController->renderPartial('/user/login', Array, true)
+#8 C:\xampp\htdocs\kaimito\php\protected\modules\user\controllers\LoginController.php(29): CController->render('/user/login', Array)
+#9 C:\xampp\htdocs\kaimito\php\framework\web\actions\CInlineAction.php(50): LoginController->actionLogin()
+#10 C:\xampp\htdocs\kaimito\php\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\kaimito\php\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\kaimito\php\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(283): CController->run('')
+#14 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController('user/login')
+#15 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\kaimito\php\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/kaimito/php/user/login.htm
+HTTP_REFERER=http://localhost/kaimito/php/stream/index.htm
+---
+2014/03/07 07:16:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2e5caca/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2e5caca...')
+#1 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\php\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/php/assets/d2e5caca/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/php/user/login.htm
+---
+2014/03/07 07:17:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2e5caca/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2e5caca...')
+#1 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\php\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/php/assets/d2e5caca/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/php/user/login.htm
+---
+2014/03/07 07:18:11 [error] [php] Undefined property: stdClass::$error (C:\xampp\htdocs\kaimito\php\protected\modules\hybridauth\Hybrid\thirdparty\OAuth\OAuth2Client.php:79)
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\protected\modules\hybridauth\Hybrid\Endpoint.php(61): processAuthDone()
+#1 C:\xampp\htdocs\kaimito\php\protected\modules\hybridauth\controllers\DefaultController.php(124): process()
+#2 C:\xampp\htdocs\kaimito\php\framework\web\actions\CInlineAction.php(50): DefaultController->actionCallback()
+#3 C:\xampp\htdocs\kaimito\php\framework\web\CController.php(309): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\kaimito\php\framework\web\CController.php(287): DefaultController->runAction()
+#5 C:\xampp\htdocs\kaimito\php\framework\web\CController.php(266): DefaultController->runActionWithFilters()
+#6 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(283): DefaultController->run()
+#7 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#8 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\kaimito\php\index.php(13): CWebApplication->run()
+REQUEST_URI=/kaimito/php/hybridauth/default/callback?hauth.done=google&code=4/mVNFBkukuMWuZ_jIdic7-Z-lDVob.Uun6aWlH8XMfXE-sT2ZLcbSfb2U2iQI
+in C:\xampp\htdocs\kaimito\php\protected\modules\hybridauth\Hybrid\thirdparty\OAuth\OAuth2Client.php (79)
+in C:\xampp\htdocs\kaimito\php\protected\modules\hybridauth\Hybrid\Provider_Model_OAuth2.php (109)
+in C:\xampp\htdocs\kaimito\php\protected\modules\hybridauth\Hybrid\Endpoint.php (190)
+2014/03/07 07:30:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2e5caca/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2e5caca...')
+#1 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\php\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/php/assets/d2e5caca/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/php/user/login.htm
+---
+2014/03/07 07:30:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2e5caca/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2e5caca...')
+#1 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\php\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/php/assets/d2e5caca/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/php/user/login.htm
+---
+2014/03/07 07:30:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2e5caca/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2e5caca...')
+#1 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\php\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/php/assets/d2e5caca/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/php/user/login.htm
+---
+2014/03/07 07:30:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2e5caca/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2e5caca...')
+#1 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\php\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/php/assets/d2e5caca/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/php/user/login.htm
+---
+2014/03/07 07:30:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2e5caca/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2e5caca...')
+#1 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\php\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/php/assets/d2e5caca/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/php/user/login.htm
+---
+2014/03/07 07:30:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2e5caca/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2e5caca...')
+#1 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\php\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/php/assets/d2e5caca/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/php/user/login.htm
+---
+2014/03/07 07:30:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2e5caca/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2e5caca...')
+#1 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\php\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/php/assets/d2e5caca/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/php/user/login.htm
+---
+2014/03/07 07:30:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2e5caca/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2e5caca...')
+#1 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\php\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/php/assets/d2e5caca/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/php/user/login.htm
+---
+2014/03/07 07:31:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2e5caca/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2e5caca...')
+#1 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\php\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/php/assets/d2e5caca/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/php/user/login.htm
+---
+2014/03/07 07:37:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2e5caca/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2e5caca...')
+#1 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\php\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/php/assets/d2e5caca/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/php/user/login.htm
+---
+2014/03/07 07:37:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2e5caca/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2e5caca...')
+#1 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\php\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/php/assets/d2e5caca/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/php/user/login.htm
+---
+2014/03/07 07:37:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2e5caca/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2e5caca...')
+#1 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\php\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/php/assets/d2e5caca/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/php/user/login.htm
+---
+2014/03/07 07:37:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2e5caca/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2e5caca...')
+#1 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\php\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/php/assets/d2e5caca/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/php/user/login.htm
+---
+2014/03/07 07:37:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2e5caca/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2e5caca...')
+#1 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\php\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/php/assets/d2e5caca/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/php/user/login.htm
+---
+2014/03/07 07:37:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2e5caca/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2e5caca...')
+#1 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\php\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/php/assets/d2e5caca/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/php/user/login.htm
+---
+2014/03/07 07:37:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2e5caca/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2e5caca...')
+#1 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\php\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/php/assets/d2e5caca/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/php/user/login.htm
+---
+2014/03/07 07:37:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2e5caca/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2e5caca...')
+#1 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\php\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/php/assets/d2e5caca/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/php/user/login.htm
+---
+2014/03/07 07:38:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2e5caca/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2e5caca...')
+#1 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\php\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/php/assets/d2e5caca/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/php/user/login.htm
+---
+2014/03/07 07:40:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2e5caca/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2e5caca...')
+#1 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\php\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/php/assets/d2e5caca/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/php/user/login.htm
+---
+2014/03/07 07:40:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2e5caca/css/bootstrap.css.map".' in C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2e5caca...')
+#1 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\php\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/php/assets/d2e5caca/css/bootstrap.css.map
+HTTP_REFERER=http://localhost/kaimito/php/user/login.htm
+---
+2014/03/07 07:41:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2e5caca/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2e5caca...')
+#1 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\php\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/php/assets/d2e5caca/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/php/user/login.htm
+---
+2014/03/07 07:41:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2e5caca/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2e5caca...')
+#1 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\php\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/php/assets/d2e5caca/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/php/user/login.htm
+---
+2014/03/07 07:41:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2e5caca/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2e5caca...')
+#1 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\php\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/php/assets/d2e5caca/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/php/user/login.htm
+---
+2014/03/07 07:41:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2e5caca/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2e5caca...')
+#1 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\php\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/php/assets/d2e5caca/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/php/user/login.htm
+---
+2014/03/07 07:41:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2e5caca/css/bootstrap.css.map".' in C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2e5caca...')
+#1 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\php\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/php/assets/d2e5caca/css/bootstrap.css.map
+HTTP_REFERER=http://localhost/kaimito/php/user/login.htm
+---
+2014/03/07 07:42:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2e5caca/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2e5caca...')
+#1 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\php\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/php/assets/d2e5caca/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/php/user/login.htm
+---
+2014/03/07 07:42:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2e5caca/css/bootstrap.css.map".' in C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2e5caca...')
+#1 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\php\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/php/assets/d2e5caca/css/bootstrap.css.map
+HTTP_REFERER=http://localhost/kaimito/php/user/login.htm
+---
+2014/03/07 07:42:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2e5caca/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2e5caca...')
+#1 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\php\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/php/assets/d2e5caca/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/php/user/login.htm
+---
+2014/03/07 07:42:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2e5caca/css/bootstrap.css.map".' in C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2e5caca...')
+#1 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\php\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/php/assets/d2e5caca/css/bootstrap.css.map
+HTTP_REFERER=http://localhost/kaimito/php/user/login.htm
+---
+2014/03/07 07:42:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2e5caca/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2e5caca...')
+#1 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\php\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/php/assets/d2e5caca/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/php/user/login.htm
+---
+2014/03/07 07:42:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2e5caca/css/bootstrap.css.map".' in C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2e5caca...')
+#1 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\php\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/php/assets/d2e5caca/css/bootstrap.css.map
+HTTP_REFERER=http://localhost/kaimito/php/user/login.htm
+---
+2014/03/07 07:42:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2e5caca/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2e5caca...')
+#1 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\php\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/php/assets/d2e5caca/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/php/user/login.htm
+---
+2014/03/07 07:42:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2e5caca/css/bootstrap.css.map".' in C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2e5caca...')
+#1 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\php\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/php/assets/d2e5caca/css/bootstrap.css.map
+HTTP_REFERER=http://localhost/kaimito/php/user/login.htm
+---
+2014/03/07 07:43:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2e5caca/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2e5caca...')
+#1 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\php\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/php/assets/d2e5caca/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/php/user/login.htm
+---
+2014/03/07 07:43:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2e5caca/css/bootstrap.css.map".' in C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2e5caca...')
+#1 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\php\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/php/assets/d2e5caca/css/bootstrap.css.map
+HTTP_REFERER=http://localhost/kaimito/php/user/login.htm
+---
+2014/03/07 07:44:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2e5caca/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2e5caca...')
+#1 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\php\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/php/assets/d2e5caca/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/php/user/login.htm
+---
+2014/03/07 07:44:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2e5caca/css/bootstrap.css.map".' in C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2e5caca...')
+#1 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\php\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/php/assets/d2e5caca/css/bootstrap.css.map
+HTTP_REFERER=http://localhost/kaimito/php/user/login.htm
+---
+2014/03/07 07:44:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2e5caca/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2e5caca...')
+#1 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\php\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/php/assets/d2e5caca/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/php/user/login.htm
+---
+2014/03/07 07:44:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2e5caca/css/bootstrap.css.map".' in C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2e5caca...')
+#1 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\php\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/php/assets/d2e5caca/css/bootstrap.css.map
+HTTP_REFERER=http://localhost/kaimito/php/user/login.htm
+---
+2014/03/07 07:44:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2e5caca/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2e5caca...')
+#1 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\php\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/php/assets/d2e5caca/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/php/user/login.htm
+---
+2014/03/07 07:44:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2e5caca/css/bootstrap.css.map".' in C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2e5caca...')
+#1 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\php\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/php/assets/d2e5caca/css/bootstrap.css.map
+HTTP_REFERER=http://localhost/kaimito/php/user/login.htm
+---
+2014/03/07 07:45:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2e5caca/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2e5caca...')
+#1 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\php\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/php/assets/d2e5caca/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/php/user/login.htm
+---
+2014/03/07 07:46:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2e5caca/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2e5caca...')
+#1 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\php\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/php/assets/d2e5caca/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/php/user/login.htm
+---
+2014/03/07 07:46:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2e5caca/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2e5caca...')
+#1 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\php\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/php/assets/d2e5caca/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/php/user/login.htm
+---
+2014/03/07 07:46:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2e5caca/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2e5caca...')
+#1 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\php\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/php/assets/d2e5caca/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/php/user/login.htm
+---
+2014/03/07 07:46:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2e5caca/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2e5caca...')
+#1 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\php\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/php/assets/d2e5caca/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/php/user/login.htm
+---
+2014/03/07 07:46:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2e5caca/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2e5caca...')
+#1 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\php\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/php/assets/d2e5caca/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/php/user/login.htm
+---
+2014/03/07 07:47:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2e5caca/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2e5caca...')
+#1 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\php\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/php/assets/d2e5caca/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/php/user/login.htm
+---
+2014/03/07 07:47:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2e5caca/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2e5caca...')
+#1 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\php\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/php/assets/d2e5caca/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/php/user/login.htm
+---
+2014/03/07 07:47:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2e5caca/css/bootstrap.css.map".' in C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2e5caca...')
+#1 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\php\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/php/assets/d2e5caca/css/bootstrap.css.map
+HTTP_REFERER=http://localhost/kaimito/php/user/login.htm
+---
+2014/03/07 07:48:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2e5caca/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2e5caca...')
+#1 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\php\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/php/assets/d2e5caca/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/php/stream/index.htm
+---
+2014/03/07 07:49:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2e5caca/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2e5caca...')
+#1 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\php\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/php/assets/d2e5caca/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/php/gii/default/login.htm
+---
+2014/03/07 07:49:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2e5caca/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2e5caca...')
+#1 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\php\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/php/assets/d2e5caca/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/php/gii/default/login.htm
+---
+2014/03/07 07:49:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2e5caca/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2e5caca...')
+#1 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\php\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/php/assets/d2e5caca/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/php/gii/default/index.htm
+---
+2014/03/07 07:49:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2e5caca/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2e5caca...')
+#1 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\php\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/php/assets/d2e5caca/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/php/gii/model.htm
+---
+2014/03/07 07:50:38 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'kaimito.user_connections' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `user_connections`.
+in C:\xampp\htdocs\kaimito\php\index.php (13)
+2014/03/07 07:50:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2e5caca/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2e5caca...')
+#1 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\php\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/php/assets/d2e5caca/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/php/gii/model.htm
+---
+2014/03/07 07:50:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2e5caca/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2e5caca...')
+#1 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\php\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/php/assets/d2e5caca/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/php/gii/model.htm
+---
+2014/03/07 07:50:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2e5caca/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2e5caca...')
+#1 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\php\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/php/assets/d2e5caca/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/php/gii/model.htm
+---
+2014/03/07 07:57:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2e5caca/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2e5caca...')
+#1 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\php\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/php/assets/d2e5caca/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/php/stream/index.htm
+---
+2014/03/07 07:57:22 [error] [php] include(UserConnections.php): failed to open stream: No such file or directory (C:\xampp\htdocs\kaimito\php\framework\YiiBase.php:423)
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\protected\modules\user\controllers\LogoutController.php(12): spl_autoload_call()
+#1 C:\xampp\htdocs\kaimito\php\framework\web\actions\CInlineAction.php(50): LogoutController->actionLogout()
+#2 C:\xampp\htdocs\kaimito\php\framework\web\CController.php(309): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\kaimito\php\framework\web\CController.php(287): LogoutController->runAction()
+#4 C:\xampp\htdocs\kaimito\php\framework\web\CController.php(266): LogoutController->runActionWithFilters()
+#5 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(283): LogoutController->run()
+#6 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#7 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\kaimito\php\index.php(13): CWebApplication->run()
+REQUEST_URI=/kaimito/php/user/logout.htm
+in C:\xampp\htdocs\kaimito\php\protected\modules\user\controllers\LogoutController.php (12)
+in C:\xampp\htdocs\kaimito\php\index.php (13)
+2014/03/07 07:57:31 [error] [php] include(HybridauthModule.php): failed to open stream: No such file or directory (C:\xampp\htdocs\kaimito\php\framework\YiiBase.php:423)
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\protected\modules\user\controllers\LogoutController.php(13): spl_autoload_call()
+#1 C:\xampp\htdocs\kaimito\php\framework\web\actions\CInlineAction.php(50): LogoutController->actionLogout()
+#2 C:\xampp\htdocs\kaimito\php\framework\web\CController.php(309): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\kaimito\php\framework\web\CController.php(287): LogoutController->runAction()
+#4 C:\xampp\htdocs\kaimito\php\framework\web\CController.php(266): LogoutController->runActionWithFilters()
+#5 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(283): LogoutController->run()
+#6 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#7 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\kaimito\php\index.php(13): CWebApplication->run()
+REQUEST_URI=/kaimito/php/user/logout.htm
+in C:\xampp\htdocs\kaimito\php\protected\modules\user\controllers\LogoutController.php (13)
+in C:\xampp\htdocs\kaimito\php\index.php (13)
+2014/03/07 07:58:26 [error] [php] Missing argument 1 for CModule::__construct(), called in C:\xampp\htdocs\kaimito\php\protected\modules\user\controllers\LogoutController.php on line 14 and defined (C:\xampp\htdocs\kaimito\php\framework\base\CModule.php:70)
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CController.php(309): CInlineAction->runWithParams()
+#1 C:\xampp\htdocs\kaimito\php\framework\web\CController.php(287): LogoutController->runAction()
+#2 C:\xampp\htdocs\kaimito\php\framework\web\CController.php(266): LogoutController->runActionWithFilters()
+#3 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(283): LogoutController->run()
+#4 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#5 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\kaimito\php\index.php(13): CWebApplication->run()
+REQUEST_URI=/kaimito/php/user/logout.htm
+in C:\xampp\htdocs\kaimito\php\protected\modules\user\controllers\LogoutController.php (14)
+in C:\xampp\htdocs\kaimito\php\index.php (13)
+2014/03/07 08:02:04 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\kaimito\php\protected\modules\user\controllers\LogoutController.php:15)
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CController.php(287): LogoutController->runAction()
+#1 C:\xampp\htdocs\kaimito\php\framework\web\CController.php(266): LogoutController->runActionWithFilters()
+#2 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(283): LogoutController->run()
+#3 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\kaimito\php\index.php(13): CWebApplication->run()
+REQUEST_URI=/kaimito/php/user/logout.htm
+in C:\xampp\htdocs\kaimito\php\protected\modules\user\controllers\LogoutController.php (15)
+in C:\xampp\htdocs\kaimito\php\index.php (13)
+2014/03/07 08:02:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2e5caca/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2e5caca...')
+#1 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\php\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/php/assets/d2e5caca/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/php/user/login.htm
+---
+2014/03/07 08:06:47 [error] [exception.CException] exception 'CException' with message 'UsersConnections and its behaviors do not have a method or closure named "notsafe".' in C:\xampp\htdocs\kaimito\php\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\db\ar\CActiveRecord.php(226): CComponent->__call('notsafe', Array)
+#1 C:\xampp\htdocs\kaimito\php\protected\modules\user\controllers\LoginController.php(42): CActiveRecord->__call('notsafe', Array)
+#2 C:\xampp\htdocs\kaimito\php\protected\modules\user\controllers\LoginController.php(42): UsersConnections->notsafe()
+#3 C:\xampp\htdocs\kaimito\php\protected\modules\user\controllers\LoginController.php(21): LoginController->restoreHybridAuthSessionData()
+#4 C:\xampp\htdocs\kaimito\php\framework\web\actions\CInlineAction.php(50): LoginController->actionLogin()
+#5 C:\xampp\htdocs\kaimito\php\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\kaimito\php\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 C:\xampp\htdocs\kaimito\php\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(283): CController->run('')
+#9 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController('user/login')
+#10 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\kaimito\php\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/kaimito/php/user/login.htm
+HTTP_REFERER=http://localhost/kaimito/php/user/login.htm
+---
+2014/03/07 08:07:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2e5caca/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2e5caca...')
+#1 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\php\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/php/assets/d2e5caca/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/php/user/profile.htm
+---
+2014/03/07 08:23:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2e5caca/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2e5caca...')
+#1 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\php\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/php/assets/d2e5caca/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/php/user/profile.htm
+---
+2014/03/07 08:23:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2e5caca/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2e5caca...')
+#1 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\php\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/php/assets/d2e5caca/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/php/stream/index.htm
+---
+2014/03/07 08:23:56 [error] [php] Undefined property: stdClass::$error (C:\xampp\htdocs\kaimito\php\protected\modules\hybridauth\Hybrid\thirdparty\OAuth\OAuth2Client.php:79)
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\protected\modules\hybridauth\Hybrid\Endpoint.php(61): processAuthDone()
+#1 C:\xampp\htdocs\kaimito\php\protected\modules\hybridauth\controllers\DefaultController.php(124): process()
+#2 C:\xampp\htdocs\kaimito\php\framework\web\actions\CInlineAction.php(50): DefaultController->actionCallback()
+#3 C:\xampp\htdocs\kaimito\php\framework\web\CController.php(309): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\kaimito\php\framework\web\CController.php(287): DefaultController->runAction()
+#5 C:\xampp\htdocs\kaimito\php\framework\web\CController.php(266): DefaultController->runActionWithFilters()
+#6 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(283): DefaultController->run()
+#7 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#8 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\kaimito\php\index.php(13): CWebApplication->run()
+REQUEST_URI=/kaimito/php/hybridauth/default/callback?hauth.done=google&code=4/r2TWAsuVFwJeHNKtRPY6caYZGIwW.krCYIbI48igZXE-sT2ZLcbQ7z902iQI
+in C:\xampp\htdocs\kaimito\php\protected\modules\hybridauth\Hybrid\thirdparty\OAuth\OAuth2Client.php (79)
+in C:\xampp\htdocs\kaimito\php\protected\modules\hybridauth\Hybrid\Provider_Model_OAuth2.php (109)
+in C:\xampp\htdocs\kaimito\php\protected\modules\hybridauth\Hybrid\Endpoint.php (190)

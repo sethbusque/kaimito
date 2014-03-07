@@ -4,6 +4,7 @@ class renderProviders extends CWidget {
 
 	public $config;
 	private $_assetsUrl;
+	public $target;
 	
 	public function init() {
 		// this method is called by CController::beginWidget()
@@ -35,6 +36,7 @@ class renderProviders extends CWidget {
 			'baseUrl'=>Yii::app()->request->getBaseUrl(true)."/hybridauth",
 			'providers' => $providers,
 			'assetsUrl' =>  $this->_assetsUrl,
+			'target'=>$this->target,
 		));
 
 	}

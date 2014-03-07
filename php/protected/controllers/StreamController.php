@@ -15,8 +15,14 @@ class StreamController extends Controller
 		// // $cb->setToken($_SESSION['oauth_token'], $_SESSION['oauth_token_secret']);
 
 		// // $reply = (array) $cb->statuses_homeTimeline();
-		
-		$reply = array();
+		$ha = Yii::app()->getModule('hybridauth')->getHybridAuth();
+
+		$ha->getConnectedProviders();
+
+		$reply = $ha->getConnectedProviders();
+
+		var_dump($reply);
+		// die();
 		
 		$this->render('index',array('reply'=>$reply));
 	}

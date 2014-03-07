@@ -17,7 +17,7 @@
 	<div class="flash-error"> <?php echo $message ?> </div>
 <?php endforeach; ?>		
 
-<ul class='hybridauth-providerlist'>
+<ul class='hybridauth-providerlist' class="list-target-<?php echo $target; ?>">
 	<?php foreach ($providers as $provider => $settings): ?>
 		<?php if($settings['enabled'] == true): ?> 
 			<li <?php if ($settings['active']==true): ?>
@@ -27,7 +27,7 @@
 				<?php endif; ?>
 			>
 				<a id="hybridauth-<?php echo $provider ?>" href="<?php echo $baseUrl?>/default/login/?provider=<?php echo $provider ?>" >
-					<img src="<?php echo $assetsUrl ?>/images/<?php echo strtolower($provider)?>.png"/>
+					<img src="<?php echo $assetsUrl ?>/images/<?php echo strtolower($provider)?>.png" class="target-<?php echo $target; ?>"/>
 				</a>
 			</li>
 		<?php endif; ?>

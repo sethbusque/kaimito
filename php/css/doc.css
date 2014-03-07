@@ -96,3 +96,9 @@ div.breadcrumb-container{
 div.breadcrumb-container ul.breadcrumbs.breadcrumb{
 	margin-bottom: 0px;
 }
+
+.hybridauth-providerlist img.target-login{
+	width: 24px;
+	height: 24px;
+	margin: 3px;
+}

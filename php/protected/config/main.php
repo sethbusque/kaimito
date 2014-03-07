@@ -79,30 +79,29 @@ return array(
         'hybridauth' => array(
             'withYiiUser' => true, // Set to true if using yii-user
             "providers" => array ( 
-                "openid" => array (
-                    "enabled" => true
-                ),
- 
                 "yahoo" => array ( 
                     "enabled" => true 
                 ),
- 
-                "google" => array ( 
+ 				"google" => array ( 
                     "enabled" => true,
-                    "keys"    => array ( "id" => "960793796185-1jssr40u2lakoccr8fib9sptpcl0351s.apps.googleusercontent.com", "secret" => "KJ4LUVd0HCbBIR3cL1f1HM0A" ),
+                    "keys"    => array ( 
+            			"id" => "960793796185-1jssr40u2lakoccr8fib9sptpcl0351s.apps.googleusercontent.com", 
+            			"secret" => "KJ4LUVd0HCbBIR3cL1f1HM0A" 
+            		),
                     "scope"   => ""
                 ),
- 
                 "facebook" => array ( 
                     "enabled" => true,
                     "keys"    => array ( "id" => "", "secret" => "" ),
                     "scope"   => "email,publish_stream", 
                     "display" => "" 
                 ),
- 
                 "twitter" => array ( 
                     "enabled" => true,
-                    "keys"    => array ( "key" => "K6zFXmFlPi6GlfSyruD5Q", "secret" => "xufv0Po4RgeK7LTIHnylBylIK6XokOxnaTH8zOsaM" ) 
+                    "keys"    => array (
+                    	"key" => "K6zFXmFlPi6GlfSyruD5Q",
+                    	"secret" => "xufv0Po4RgeK7LTIHnylBylIK6XokOxnaTH8zOsaM"
+                    ) 
                 )
             )
         ),

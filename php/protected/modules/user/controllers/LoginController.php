@@ -18,6 +18,7 @@ class LoginController extends Controller
 				// validate user input and redirect to previous page if valid
 				if($model->validate()) {
 					$this->lastViset();
+					$this->restoreHybridAuthSessionData();
 					if (Yii::app()->user->returnUrl=='/index.php')
 						$this->redirect(Yii::app()->controller->module->returnUrl);
 					else
@@ -37,4 +38,8 @@ class LoginController extends Controller
 		$lastVisit->save();
 	}
 
+	private function restoreHybridAuthSessionData(){
+		$usersConnections = UsersConnections::model()->findByAttribute(array('user_id'=>Yii::app()->user->id));
+		Yii::app()->getModule('hybridauth')->hybridAuth->restoreSessionData($usersConnections->hybridauth_session);
+	}
 }

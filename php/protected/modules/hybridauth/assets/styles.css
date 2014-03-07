@@ -8,6 +8,5 @@ ul.hybridauth-providerlist li {
 }
 
 .hybridauth-providerlist li.active {
-	background-color:green;
 	margin:5px;
 }
