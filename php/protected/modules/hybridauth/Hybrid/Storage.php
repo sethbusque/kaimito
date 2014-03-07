@@ -64,7 +64,7 @@ class Hybrid_Storage
 
 	function getSessionData()
 	{ 
-		return serialize( $_SESSION["HA::STORE"] );
+		return serialize( isset($_SESSION["HA::STORE"]) ? $_SESSION["HA::STORE"] : null );
 	}
 
 	function restoreSessionData( $sessiondata = NULL )
