@@ -17,9 +17,7 @@ class StreamController extends Controller
 		// // $reply = (array) $cb->statuses_homeTimeline();
 		$ha = Yii::app()->getModule('hybridauth')->getHybridAuth();
 
-		$ha->getConnectedProviders();
-
-		$reply = $ha->getConnectedProviders();
+		$reply = HaLogin::getLogins(Yii::app()->user->id);
 
 		var_dump($reply);
 		// die();
