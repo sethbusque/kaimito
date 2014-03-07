@@ -17,6 +17,7 @@ class DefaultController extends Controller {
 			$this->_doLogin();
 		} catch (Exception $e) {
 			Yii::app()->user->setFlash('hybridauth-error', "Something went wrong, did you cancel?");
+			CVarDumper::dump($e,10,true);
 			$this->redirect(Yii::app()->session['hybridauth-ref'], true);
 		}
 	}
