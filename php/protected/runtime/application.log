@@ -10463,3 +10463,12 @@ Stack trace:
 REQUEST_URI=/kaimito/php/assets/d2e5caca/css/bootstrap-yii.css
 HTTP_REFERER=http://localhost/kaimito/php/stream/index.htm
 ---
+2014/03/07 08:47:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/d2e5caca/css/bootstrap-yii.css".' in C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\kaimito\php\framework\web\CWebApplication.php(142): CWebApplication->runController('assets/d2e5caca...')
+#1 C:\xampp\htdocs\kaimito\php\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\kaimito\php\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kaimito/php/assets/d2e5caca/css/bootstrap-yii.css
+HTTP_REFERER=http://localhost/kaimito/php/user/profile.htm
+---

@@ -39,7 +39,7 @@ class LoginController extends Controller
 	}
 
 	private function restoreHybridAuthSessionData(){
-		$usersConnections = UsersConnections::model()->findByAttribute(array('user_id'=>Yii::app()->user->id));
+		$usersConnections = UsersConnections::model()->findByAttributes(array('user_id'=>Yii::app()->user->id));
 		Yii::app()->getModule('hybridauth')->hybridAuth->restoreSessionData($usersConnections->hybridauth_session);
 	}
 }

@@ -3,7 +3,7 @@ $this->menu=array(
 	((UserModule::isAdmin())
 		?array('label'=>UserModule::t('Manage Users'), 'url'=>array('/user/admin'),'icon'=>'cog')
 		:array()),
-    array('label'=>UserModule::t('List User'), 'url'=>array('/user'),'icon'=>'list'),
+    array('label'=>UserModule::t('Accounts'), 'url'=>array('/user/accounts'),'icon'=>'list'),
     array('label'=>UserModule::t('Edit'), 'url'=>array('edit'),'icon'=>'pencil'),
     array('label'=>UserModule::t('Change password'), 'url'=>array('changepassword'),'icon'=>'lock'),
     array('label'=>UserModule::t('Logout'), 'url'=>array('/user/logout'),'icon'=>'log-out'),
