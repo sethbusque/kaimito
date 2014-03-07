@@ -19,7 +19,7 @@ class StreamController extends Controller
 
 		$reply = HaLogin::getLogins(Yii::app()->user->id);
 
-		var_dump($reply);
+		CVarDumper::dump($reply,10,true);
 		// die();
 		
 		$this->render('index',array('reply'=>$reply));
