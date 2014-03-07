@@ -120,7 +120,7 @@
 <?php echo CHtml::endForm(); ?>
 
 </div><!-- form -->
-<div id="dialog-form" title="<?php echo UserModule::t('Widget parametrs'); ?>">
+<div id="dialog-form" title="<?php echo UserModule::t('Widget parameters'); ?>">
 	<form>
 	<fieldset>
 		<label for="name">Name</label>

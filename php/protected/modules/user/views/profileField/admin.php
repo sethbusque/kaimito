@@ -11,7 +11,7 @@ $this->menu=array(
 
 Yii::app()->clientScript->registerScript('search', "
 $('.search-button').click(function(){
-    $('.search-form').toggle();
+    $('.search-form').slideToggle(500);
     return false;
 });
 $('.search-form form').submit(function(){
@@ -23,15 +23,25 @@ $('.search-form form').submit(function(){
 ");
 
 ?>
-<h1><?php echo UserModule::t('Manage Profile Fields'); ?></h1>
-
-<?php echo CHtml::link(UserModule::t('Advanced Search'),'#',array('class'=>'search-button')); ?>
-<div class="search-form" style="display:none">
-<?php $this->renderPartial('_search',array(
-    'model'=>$model,
+<h1><?php echo UserModule::t('Manage Profile Fields'); ?>
+<?php $this->widget('bootstrap.widgets.TbButton', array(
+    'buttonType'=>'link',
+    'url'=>'#',
+    'label'=>UserModule::t('Advanced Search'),
+    'type'=>'primary', // null, 'primary', 'info', 'success', 'warning', 'danger' or 'inverse'
+    'icon'=>'search',
+    'htmlOptions'=>array(
+    	'class'=>'search-button pull-right'
+    )
 )); ?>
-</div><!-- search-form -->
-
+</h1>
+<div class="panel panel-default search-form" style="display:none">
+	<div class="panel-body">
+	   <?php $this->renderPartial('_search',array(
+	    'model'=>$model,
+	)); ?>
+	</div>
+</div>
 <?php $this->widget('bootstrap.widgets.TbGridView', array(
 	'dataProvider'=>$model->search(),
 	'columns'=>array(

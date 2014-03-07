@@ -13,9 +13,6 @@ $this->menu=array(
     array('label'=>UserModule::t('Logout'), 'url'=>array('/user/logout'), 'icon'=>'log-out'),
 );
 ?>
-
-<h1><i class="glyphicon glyphicon-lock"></i> <?php echo UserModule::t("Change password"); ?></h1>
-
 <div class="form">
 <?php $form=$this->beginWidget('bootstrap.widgets.TbActiveForm', array(
 	'id'=>'changepassword-form',

@@ -75,6 +75,37 @@ return array(
             # page after logout
             'returnLogoutUrl' => array('/user/login'),
         ),
+
+        'hybridauth' => array(
+            'withYiiUser' => true, // Set to true if using yii-user
+            "providers" => array ( 
+                "openid" => array (
+                    "enabled" => true
+                ),
+ 
+                "yahoo" => array ( 
+                    "enabled" => true 
+                ),
+ 
+                "google" => array ( 
+                    "enabled" => true,
+                    "keys"    => array ( "id" => "960793796185-1jssr40u2lakoccr8fib9sptpcl0351s.apps.googleusercontent.com", "secret" => "KJ4LUVd0HCbBIR3cL1f1HM0A" ),
+                    "scope"   => ""
+                ),
+ 
+                "facebook" => array ( 
+                    "enabled" => true,
+                    "keys"    => array ( "id" => "", "secret" => "" ),
+                    "scope"   => "email,publish_stream", 
+                    "display" => "" 
+                ),
+ 
+                "twitter" => array ( 
+                    "enabled" => true,
+                    "keys"    => array ( "key" => "K6zFXmFlPi6GlfSyruD5Q", "secret" => "xufv0Po4RgeK7LTIHnylBylIK6XokOxnaTH8zOsaM" ) 
+                )
+            )
+        ),
 	),
 
 	// application components
@@ -141,14 +172,6 @@ return array(
             // enable cookie-based authentication
             'class' => 'WebUser',
         ),
-        'mailgun' => array(
-            'class' => 'application.extensions.php-mailgun.MailgunYii',
-            'domain' => 'sandbox39039.mailgun.org',
-            'key' => 'key-8m2o8ppr6aw6gk3xjvdhb6uyjiyxwq18',
-            'tags' => array('yii'), // You may also specify some Mailgun parameters
-            'enableTracking' => false,
-        ),
-
         'mail' => array(
  			'class' => 'ext.yii-mail.YiiMail',
  			'transportType' => 'smtp',
@@ -177,5 +200,8 @@ return array(
 	'params'=>array(
 		// this is used in contact page
 		'adminEmail'=>'sethbusque@gmail.com',
+		'twitterConsumerKey'=>array(
+			'K6zFXmFlPi6GlfSyruD5Q','xufv0Po4RgeK7LTIHnylBylIK6XokOxnaTH8zOsaM'
+		)
 	),
 );

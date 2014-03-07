@@ -74,6 +74,7 @@ class RegistrationController extends Controller
 						}
 					} else $profile->validate();
 				}
+				$this->layout = "//layouts/userlanding";
 			    $this->render('/user/registration',array('model'=>$model,'profile'=>$profile));
 		    }
 	}

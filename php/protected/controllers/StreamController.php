@@ -7,16 +7,14 @@ class StreamController extends Controller
 {
 	public function actionIndex()
 	{
-		require_once('codebird/codebird.php');
-		\Codebird\Codebird::setConsumerKey('K6zFXmFlPi6GlfSyruD5Q', 'xufv0Po4RgeK7LTIHnylBylIK6XokOxnaTH8zOsaM');
-		$cb = \Codebird\Codebird::getInstance();
+		// require_once('codebird/codebird.php');
+		// \Codebird\Codebird::setConsumerKey(Yii::app()->params['twitterConsumerKey'][0], Yii::app()->params['twitterConsumerKey'][1]);
+		// $cb = \Codebird\Codebird::getInstance();
 		
-		// session_start();
 
-		// // assign access token on each page load
-		// $cb->setToken($_SESSION['oauth_token'], $_SESSION['oauth_token_secret']);
+		// // $cb->setToken($_SESSION['oauth_token'], $_SESSION['oauth_token_secret']);
 
-		// $reply = (array) $cb->statuses_homeTimeline();
+		// // $reply = (array) $cb->statuses_homeTimeline();
 		
 		$reply = array();
 		

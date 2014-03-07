@@ -1,4 +1,4 @@
-<?php $this->pageTitle=Yii::app()->name . ' - '.UserModule::t("Profile");
+<?php $this->pageTitle=Yii::app()->name . ' - '.UserModule::t("Edit Profile");
 $this->breadcrumbs=array(
 	UserModule::t("Profile")=>array('profile'),
 	UserModule::t("Edit"),
@@ -12,8 +12,7 @@ $this->menu=array(
     array('label'=>UserModule::t('Change password'), 'url'=>array('changepassword'), 'icon'=>'lock'),
     array('label'=>UserModule::t('Logout'), 'url'=>array('/user/logout'), 'icon'=>'log-out'),
 );
-?><h1><i class="glyphicon glyphicon-pencil"></i> <?php echo UserModule::t('Edit profile'); ?></h1>
-
+?>
 <?php if(Yii::app()->user->hasFlash('profileMessage')): ?>
 <div class="alert alert-success alert-dismissable">
 	<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
