@@ -92,7 +92,10 @@ return array(
                 ),
                 "facebook" => array ( 
                     "enabled" => true,
-                    "keys"    => array ( "id" => "", "secret" => "" ),
+                    "keys"    => array (
+                    	"id" => "380117428794885",
+                    	"secret" => "34156cae53afc1296a4faf65c1d49191"
+                    ),
                     "scope"   => "email,publish_stream", 
                     "display" => "" 
                 ),
