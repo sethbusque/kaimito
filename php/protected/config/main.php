@@ -87,8 +87,7 @@ return array(
                     "keys"    => array ( 
             			"id" => "960793796185-1jssr40u2lakoccr8fib9sptpcl0351s.apps.googleusercontent.com", 
             			"secret" => "KJ4LUVd0HCbBIR3cL1f1HM0A" 
-            		),
-                    "scope"   => ""
+            		)
                 ),
                 "facebook" => array ( 
                     "enabled" => true,
@@ -96,8 +95,6 @@ return array(
                     	"id" => "380117428794885",
                     	"secret" => "34156cae53afc1296a4faf65c1d49191"
                     ),
-                    "scope"   => "email,publish_stream", 
-                    "display" => "" 
                 ),
                 "twitter" => array ( 
                     "enabled" => true,
